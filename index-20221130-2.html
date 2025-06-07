@@ -1,0 +1,1296 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<meta name="description" content="obap is a style, a grand style and a kind of way to present. It is intended to make visible and interesting form any essential or hidden from recorded space.">
+<meta name="keywords" content="obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus">
+<title>Ongoing Bit Ambient Project</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128487356-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128487356-1');
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="UTF-8"> 
+<meta http-equiv = "content-language" content = "en">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.78">
+<meta name="robots" content="noodp,noydir" /> 
+<meta property="og:url" content="http://www.obap.info" />
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Oleva Bitti Ambientti Projekti    |    Ongoing Bit Ambient Project"/>
+<meta property="og:image" content="http://www.obap.info/FBshare/FBshareP1JO.png"/>
+<meta property="og:description" content="  "/>
+<meta data-react-helmet="true" property="og:site_name" content="www.obap.info"/>
+<meta data-react-helmet="true" property="fb:app_id" content="179289739641417"/>
+ 
+   
+<link rel="stylesheet" href="malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css" />
+<link rel="icon" href="../images/obap-weblogo-for-ico.png" type="image/png" sizes="64x64">
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+</head>
+<head>
+<style>
+
+html { overflow:hidden; } 
+body {background-color:#000; }
+#InfoText{position:fixed; top:1; left:0; opacity: 0;}
+#page-background {position:fixed; top:0; left:0; opacity: 0; width:100%; height:100%; z-index:1; height: 100%; background-position: center; background-repeat: no-repeat background-size: cover; }
+#page-background2 {position:fixed; top:0; left:0; opacity: 0.4; width:100%; height:100%; z-index:2; height: 100%; background-position: center; background-repeat: no-repeat background-size: cover; }
+#page-backgroundPIM {position:fixed; top:0; left:0; opacity: 0.25; width:100%; height:100%; z-index:3; height: 100%; background-color:#000; background-position: center; background-repeat: no-repeat background-size: cover; }
+#slPimennys {position:fixed; z-index:0; border:double; opacity: 0; font-family:Verdana; font-size:96px; text-align: center; color:#000; top:0; left:0; width: 100%; height: 100%; background-color:#000; }
+
+#sllPimennys {position:fixed; opacity: 0; z-index:4; color:#000; top:0; left:0; width: 100%; height: 100%; background-color:#000; }
+
+#PreLoad {position:fixed; z-index:20; border:double; opacity: 0.75; font-family:Verdana; font-size:96px; text-align: center; color:#333; top:0; left:0; width: 100%; height: 100%; background-color:#000; }
+#PreLoadMeter {position: relative; top:35px; left:0; width: 0%; height:3px; opacity: 0.9; z-index:21; background-color:#0F0;}
+
+@font-face {
+    font-family: AgencyFB;
+    src: url(../Font/AGENCYR.TTF); 
+	color:#FFF; }
+@font-face {
+	font-family: Shruti;
+    src: url(../Font/shruti.TTF); 
+	color:#CCC; }
+textarea { font-family:Shruti; font-size: 16px; }
+
+#pimennys {position:fixed; background-color: rgba(0,0,0,0.7); border-radius: 5px; top:82; left:92; width:510; height:0%; z-index:10; overflow:hidden;}
+#pimm-tausta {position: relative; top:0; left:0; width: 100%; height:5px; opacity: 0.16; z-index:12; background-color:#0F0;}
+#pim {position: relative;  top: 1; width: 100%; text-align: center; margin-top: 0px; z-index:14;}
+#InfoClButton {position:absolute; z-index:17; overflow:hidden; top:5; right: 0;}
+#pimennysNavi {position:fixed; background-color: rgba(0,0,0,0.7); border-radius: 5px; top:82; left:92; width:490; height:0px; z-index:15; overflow:hidden;}
+#ppNavi {position:absolute; border-radius: 5px; top:6; left:19; z-index:16; overflow:hidden;}
+
+#pimennysMail {position:fixed; background-color: rgba(0,0,0,0.7); border-radius: 5px; font-family:AgencyFB; font-size:24px; color:#FFF; top:82; left:36; width:320; height:0%; z-index:10; overflow:hidden;}
+#mailT {font-family:AgencyFB; font-size: 30px; color:#CCC; text-align: left;}
+#pimm-taustaMail {position: relative; top:0; left:0; width: 100%; height:5px; opacity: 0.16; z-index:12; background-color:#0F0;}
+#pimMail {position: relative; top: 1%; width: 100%; text-align: center; margin-top: 0px; z-index:14;}
+#email_content {width: 220px; }
+#MailClButton {position:absolute; z-index:6; border:medium; top: 0; right: 10; }
+
+#sleepT {position:fixed; z-index: 14; background-color: rgba(0,0,0,0.7); margin-top: 0px; right: 0%; bottom: 24px; width: 0px; height: 80px;}
+#pimm-taustaSleep {position: relative; top: 0px; left:0; height: 100%; width:5px; opacity: 0.16; z-index:15; background-color:#0F0;}
+#TextD{position:absolute; border:#0F3; left:2%; width: 100%; height: 100%; font-family:AgencyFB; font-size:18px; color:#CCC; margin-top: -78px; z-index: 16;}
+#tableSleep {vertical-align: bottom;}
+
+#lava {position:absolute; z-index:3; overflow:hidden; top: 0%; width: 720px ; height:600px; left: 50%; margin-left: -320px;}
+#centerLeft{position:absolute; z-index: 2; left:50%; width: 640px ;}
+#centerRight {position:absolute; z-index: 2; right:50%;}
+#ylat {position:absolute; z-index: 14; overflow:hidden; opacity: 0; left: 50%; margin-left: -202px; top: -55px; width: 390px ; height: 144px;}
+#logo {position:absolute; z-index: 3; overflow:hidden; top:  10px; vertical-align:bottom; left: 0%; width: 140px ; height: 40px;}
+#sloukan {position:absolute; z-index: 3; overflow:hidden; font-family:Verdana; font-size:12px; left: 0%; top: 0%; width: 80px ; height: 30px;}
+#soitin {position:absolute; z-index: 3; overflow:hidden; top: -90px; margin-left: -190px; left: 50%; width: 385px; height: 200px;}
+#ajastin {position:absolute; opacity: 0.3; z-index: 14; overflow:hidden; font-family:Verdana; font-size:84px; bottom: -1px; right: -360px; width: 360px; height: 110px;}
+#nimi {position:absolute; z-index: 3; overflow:hidden; right: 0%; top: 0px; width: 160px; height: 30px;}
+#VNimi1 {position:absolute; z-index: 6; overflow:hidden; font-family:Verdana; font-size:12px; width: 100%; height: 100%;}
+#VNimi2 {position:absolute; z-index: 3; overflow:hidden; text-align: right; vertical-align: middle; font-size:12px; font-family:Verdana; left: 140px; width: 100%; height: 100%;}
+#varjo {position:absolute; z-index: 5; overflow:hidden; width: 640px; height: 360px;}
+#menu {position:absolute; text-align: center; z-index: 24; overflow:hidden; top: 96px; left: 180px; width: 400px ; height: 340px;}
+#menuu {position:absolute; text-align: center; z-index: 7; overflow:hidden; left: -720px; width: 250px ; height: 134px;}
+#vnaytto {position:absolute; z-index: 3; overflow:hidden; left: 50%; margin-left: -360px; top: 50%; margin-top: -250px; width: 710px; height: 800px;}
+#vnaytto1 {position:absolute; z-index: 6; overflow:hidden; padding: 45px 0; top: 0%;left: 720px; width: 720px; height: 480px;}
+#vnaytto2 {position:absolute; z-index: 6; overflow:hidden; padding: 45px 0; top: 0%;left: 720px; width: 720px; height: 480px;}
+#myVideo1 {position:absolute;}
+#myVideo2 {position:absolute;}
+
+#about {position:absolute; z-index: 16; overflow:hidden; top: 14px; left: 10px; height: 80px; width: 370px;}
+#aboutObap {position:absolute; z-index: 17; overflow:hidden; top: 18px; left: 12px; height: 80px; width: 86px;}
+#PlayAll {position:absolute; z-index: 18; overflow:hidden; top: 4px; left: 255px; height: 60px; width: 60px;}
+#obap {position:absolute; z-index: 17; overflow:hidden; font-family:Verdana; font-size: 7px; color:#FFF;  bottom: 0px; height: 40px; right: 3px}
+
+#flogos {position:absolute; z-index: 8; overflow:hidden; bottom: 5px; left: 24px; height: 75px;  width: 60px;}
+#flogosBC {position:absolute; z-index: 8; overflow:hidden; bottom: 16px; left: 79px; height: 75px;  width: 75px;}
+#donationFlogos {position:absolute; z-index: 9; overflow:hidden; font-family:Verdana; font-size: 20px; bottom: 10px; left: 157px; height: 70px;  width: 52px;}
+
+#MailOverU {position:relative; z-index:: 9; background-color:#FFF; height: 1; width: 0%;}
+#InfoOverU {position:relative; z-index:: 9; background-color:#FFF; height: 1; width: 0%;}
+#BCgameOverU {position:relative; z-index:: 9; background-color:#FFF; height: 1; width: 0%;}
+#SoundOverU {position:relative; z-index:: 9; background-color:#FFF; height: 1; width: 0%;}
+
+#JoOverU {position:relative; z-index:: 9; background-color:#FFF; height: 2; width: 0%; left: 100%;}
+#NobaOverU {position:relative; z-index:: 9; background-color:#FFF; height: 2; width: 0%; left: 50%;}
+#AmbsuOverU {position:relative; z-index:: 9; background-color:#FFF; height: 0; width: 3; bottom: -1;}
+#AmbsuOverUU {position:relative; z-index:: 9; background-color:#FFF; height: 0; width: 3; bottom: 1;}
+#KansiOverU {position:relative; z-index:: 9; background-color:#FFF; height: 2; width: 0%; left: 100%;}
+#TwoOverUU {position:relative; z-index:: 9; background-color:#FFF; height: 0; width: 3; bottom: 1;}
+#TwoOverU {position:relative; z-index:: 9; background-color:#FFF; height: 2; width: 0%; left: 100%;}
+#LavaOverU {position:relative; z-index:: 9; background-color:#FFF; height: 2; width: 0%; left: 100%;}
+#AitaOverUU {position:relative; z-index:: 9; background-color:#FFF; height: 0; width: 3; bottom: 1;}
+#AitaOverU {position:relative; z-index:: 9; background-color:#FFF; height: 0; width: 3; bottom: 1;}
+#NaapuriOverU {position:relative; z-index:: 9; background-color:#FFF; height: 2; width: 0%; left: 50%;}
+#NaapuriOverUU {position:relative; z-index:: 9; background-color:#FFF; height: 0; width: 3; bottom: -4;}
+#FrontBenchOverU {position:relative; z-index:: 9; background-color:#FFF; height: 2; width: 0%; left: 50%;}
+#FrontBenchOverUU {position:relative; z-index:: 9; background-color:#FFF; height: 0; width: 3; bottom: -4;}
+/*
+#SoundOverU {position:relative; z-index:: 9; background-color:#FFF; height: 2; width: 0%; left: 0%;}
+#BCgameOverU {position:relative; z-index:: 9; background-color:#FFF; height: 2; width: 0%; left: 0%;}
+*/
+#menuNoba {margin-left: 21px;}
+#menuAmbsu {margin-left: 32px;}
+#menuMarkiii {margin-left: 18px;}
+#menuMarkiiii {margin-left: 10px;}
+#menuAita {margin-left: 39px;}
+#menuMarkiiiiii {margin-left: 14px;}
+#menuMarkiiiiiii {margin-left: 12px;}
+#menuMarkiiiiiiii {margin-left: 12px;}
+#menuMarkiiiiiiiii {margin-left: 30px;}
+#menuMarkiiiiiiiiii {margin-left: 12px;}
+#menuTwoC {margin-left: 40px;}
+#menuSoundL {margin-left: 31px;}
+  
+
+.textarea { font-family:Shruti; font-size: 16px; }
+.closebtn {
+	font:"Times New Roman", Times, serif;
+    color: white;
+    font-weight: bold;
+    float: right;
+	font-size: 36px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mCS-my-theme.mCSB_scrollTools .mCSB_button{ background-color: red; width: 8px; }.mCSB_dragger .mCSB_dragger_bar {
+   	height: 145% !important;
+	width: 15px !important;
+}
+
+
+.closebtn:hover {
+    color:#060;
+}
+.bto { opacity: 0.75; 
+-webkit-filter: drop-shadow(0px 0px 1.1px rgba(255,255,255,3));
+-mozilla-filter: drop-shadow(0 0 1.1rem crimson)
+}
+
+.btoP {   
+-webkit-filter: drop-shadow(0px 0px 0.8px rgba(0,0,0));
+-mozilla-filter: drop-shadow(0 0 0.8rem crimson);
+ opacity: 1;
+}
+.btoo {  
+-webkit-filter: drop-shadow(0px 0px 1.7px rgba(0,255,0,4));
+-mozilla-filter: drop-shadow(0 0 0.75rem crimson);
+	-webkit-transition: all 0.051s linear;
+	-o-transition: all 0.051s linear;
+	transition: all 0.051s linear;
+  opacity: 1;}
+  
+ .btoored { opacity: 1;  
+-webkit-filter: drop-shadow(0px 0px 5.8px rgba(255,0,0));
+-mozilla-filter: drop-shadow(0 0 6.35rem crimson);
+	-webkit-transition: all 0.051s linear;
+	-o-transition: all 0.051s linear;
+	transition: all 0.051s linear;
+  }
+  
+</style>
+<!-- <script src="jquery-1.10.2.js"></script> -->
+<script language="JavaScript" type="text/javascript"></script>
+<script>
+$(document).ready(function(){});
+
+    (function($){
+        $(window).on("load",function(){
+            $("#pim").mCustomScrollbar({mouseWheelPixels: 160}); $("#menuu").mCustomScrollbar({theme: "rounded", mouseWheelPixels: 35, scrollButtons:{ enable: false, hight: 60, scrollAmount: 3, scrollType: "stepless"}, setTop: "42px"});$("#PreLoadMeter").animate({width: '10%'}, 500);//PreLoad();
+});
+}) (jQuery);
+
+var bgcount="k";
+var cou=1; 
+var KuvaVuoro=0;
+var btocity = 1;
+var RMode=2
+var InfoM = "off";
+var VMaara= 4; //VIDEOIDEN KOKO MÄÄRÄ
+
+var Noba = new Array("h2YTooW1Bb8","SPW4AeuW4uk","nzN1VJcijIs");  //"UTKNHBh_igo", h2YTooW1Bb8 yBh0Hzuht1M
+var Ambsu = new Array("VWfabJy-jFs","9z5R8P5Pk1M","hCIDvbYU82Y","bLyx6mJUMD8","n4I5m11M3Sc");  //"HuHfyt_faUA"
+var Kansi = new Array("cT-bPtQxw20","Swgn_x23BW0","gyXO-jLDbWY");
+var Two = new Array("_nZW3Inh81U");
+var Lava = new Array("OZ9sIShKh78");  // EFv559BoKTM  https://youtu.be/OZ9sIShKh78
+var Aita = new Array("qJrgl2Hgbpo");    
+var Neighbor = new Array("GWy4N83Xapc","IqyuitK44BM","JP6PYhNR_yw"); //  ,
+var FBench = new Array("2P2Mrqorssw"); 
+var Jo = new Array("ePnANcbugY0");   
+//var Kansi = new Array("zt0xq-VPP5U","_EOb4KUQXyg");
+var VName = new Array;
+var TeosV = new Array;
+var KaikeP = new Array (Noba, Ambsu, Kansi, Neighbor, Two, Lava, Aita, Neighbor, FBench, Jo); //, Two, Lava, Aita, Neighbor, FBench, Jo
+var TeosN = 0;
+var TeosNN = 0;
+var AutoAlu="K";
+var TauluM= 0;
+var VNVuoro= 1;
+var VLeveys;
+var VNro= 0;
+var tassa= VNVuoro + "  " + VNro;
+var PVid;
+var VKuva=0;
+var Kuva=7;
+var Vpla="ooff";
+var Xsize=0; 
+var Ysize=0; 
+var AutoP="On";
+var SleepTimeri="off";
+var ttt=setTimeout(TImg, 1);
+//var myVar = setInterval(myTimer, 250);// --------------------------
+var tslet = 0;  
+var tsletn = Number();
+var myAuto;
+var PreM = 10;
+var kohde=0;
+var Vpla="ooff";
+var VlpaM="";
+
+var SleepVare = setInterval(Pumpp, 3000);
+
+// ------------------
+// **********************************************************************
+ // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player1;
+  var player2;
+  var player3; // ------------------------------------------------
+  function onYouTubePlayerAPIReady() {
+    player1 = new YT.Player('ytplayer1', {
+      height: '405',
+      width: '720',
+      videoId: 'yBh0Hzuht1M',
+	  playerVars: {rel: 0,
+	  showinfo: 0,
+    	fs: 0,
+		modestbranding: 0,
+		controls: 2},
+	  events: {
+		'onStateChange': onPlayerState,
+	   	'onReady': PreLoad }
+    });
+	 player2 = new YT.Player('ytplayer2', {
+      height: '405',
+      width: '720',
+      videoId: '8Y1pZr3gmcA',
+	  playerVars: {rel: 0,
+	  showinfo: 0,
+    	fs: 0,
+		modestbranding: 0,
+		controls: 3},
+	  events: {
+		'onStateChange': onPlayerState,
+		'onReady': PreLoad }
+	});
+};
+// **********************************************************************  ../images/noda_ambsu_logo_03.png
+function PreLoad() {
+
+PreM = PreM + 30; 
+	$("#PreLoadMeter").stop(true);
+  	$("#PreLoadMeter").animate({width: PreM + '%'}, 320, function() {kohde +=1;  /*document.getElementById("obap").innerHTML = PreM */;if (PreM==100){document.getElementById("PreLoad").style.opacity= '0'; /* kielieng(); */ document.getElementById("PreLoad").style.zIndex = '0'; $("#menuu").animate({left: '68px'}, 1200, function() {document.getElementById("langeng").src ="../images/fin.png"; langeng.id="langfin";
+	document.getElementById("iteksti").src ="../images/info_sketz1_eng.png";
+	document.getElementById("tekeilla").src ="../images/logoinfo_eng.png";
+	document.getElementById("obaplogo").src ="../images/obap-weblogo-eng.png"; document.getElementById("tekeilla").src = "../images/logoinfo_eng.png"; document.getElementById("page-background").style.opacity= '1'; document.getElementById("vnaytto").style.zIndex = '5';document.getElementById("menu").style.zIndex = '6'; Xsize=Xsize-224; Ysize=Ysize-72; StarBigger(); } );};}); // document.getElementById("obap").innerHTML = PreM };
+  
+};
+// **********************************************************************
+// **********************************************************************
+function TImg() {
+  	VKuva=Kuva;
+	//KuvaVuoro=KuvaVuoro+1;
+	Kuva=Math.floor(Math.random() * 17) + 1;
+	cou=cou+1;
+	//document.getElementById("obap").innerHTML = Kuva + "----" + KuvaVuoro;
+  	//if (VKuva == Kuva) {TImg()};
+  	if (KuvaVuoro >= "1"){document.getElementById("page-background2").innerHTML = '<img src="../BGimages/BGimage'+Kuva+'.jpg" width="100%" height="100%" />'; $("#page-background2").animate({opacity: '1'}, 3000, function(){document.getElementById("page-background").style.opacity = "0"; document.getElementById("page-background2").style.zIndex = "1";document.getElementById("page-background").style.zIndex = "2"; });KuvaVuoro=0;} else {document.getElementById("page-background").innerHTML = '<img src="../BGimages/BGimage'+Kuva+'.jpg" width="100%" height="100%" />'; $("#page-background").animate({opacity: '1'}, 3000, function(){document.getElementById("page-background2").style.opacity = "0"; document.getElementById("page-background").style.zIndex = "1"; document.getElementById("page-background2").style.zIndex = "2"; });KuvaVuoro=1;}
+	var tttt=setTimeout(TImg, 15000);
+	// {$("#page-background").animate({opacity: '0'}, 400, function(){document.getElementById("page-background2").style.zIndex = "1"; document.getElementById("page-background2").style.zIndex = "1"});))}
+	
+	
+};
+function waitForMouseStop(callback) {
+    var timer;
+	function stoppedMoving(evt) {callback(); };
+function moveHandler(evt) { evt = evt || window.event; 
+    if (Vpla=="oon" && (timer)){window.clearTimeout(timer); 
+	 $("#ylat").stop(); $("#about").stop();
+	$("#ylat").animate({opacity: '1'}, 30); document.body.style.cursor = "default"};
+    timer = window.setTimeout(function() { stoppedMoving(evt); }, 5000); };
+    window.onmousemove = moveHandler;
+};
+waitForMouseStop(function() { if (Vpla=="oon"){$("#ylat").stop(); $("#about").stop(); $("#about").animate({opacity: '0'}, 6000);$("#ylat").animate({opacity: '0'}, 3000, function(){document.body.style.cursor = "none"});};  //$("#ylat").animate({opacity: '0.3'}, 12000); 
+}); 
+// **********************************************************************
+function Pumpp() {
+$("#NappiPlayA").animate({width: "94%", height: "94%"}, 320)
+$("#NappiPlayA").animate({width: "88%", height: "88%"}, 350)
+/*$("#RButton").animate({})
+$("#RButton").animate({height: "56px"})
+$("#RButton").animate({width: "56px"})  */
+};
+// **********************************************************************
+function Outti(ob) {
+	var NappiO= ob.id;
+
+	if (NappiO=="NappiJo") {$("#JoOverU").animate({width: '0%', left: '100%'}, 200);};
+	if (NappiO=="NappiNoba") {$("#NobaOverU").animate({width: '0%', left: '50%'}, 200);};
+	if (NappiO=="NappiAmbsu") {$("#AmbsuOverU, #AmbsuOverUU").animate({height: '0'}, 200);};
+	if (NappiO=="NappiKansi") {$("#KansiOverU").animate({width: '0%', left: '100%'}, 200);};
+	if (NappiO=="NappiTwo") {$("#TwoOverU").animate({width: '0%', right: '100%'}, 200); $("#TwoOverUU").animate({height: '0'}, 200);};
+	if (NappiO=="NappiLava") {$("#LavaOverU").animate({width: '0%', left: '100%'}, 200);};
+	if (NappiO=="NappiAita") {$("#AitaOverUU, #AitaOverU").animate({height: '0'}, 200);};
+	if (NappiO=="NappiNaapuri") {$("#NaapuriOverU").animate({width: '0%', right: '100%'}, 200); $("#NaapuriOverUU").animate({height: '0'}, 200);};;
+	if (NappiO=="NappiFrontBench") {$("#FrontBenchOverU").animate({width: '0%', right: '100%'}, 200); $("#FrontBenchOverUU").animate({height: '0'}, 200);};;
+	if (NappiO=="NappiBC") {$("#BCgameOverU").animate({width: '0%', left: '0%'}, 200);};
+	if (NappiO=="NappiSound") {$("#SoundOverU").animate({width: '0%', left: '0%'}, 200);};
+// **********	
+	
+	if (NappiO=="NappiMailOn") {$("#MailOverU").animate({width: '0%', left: '100%'}, 200);};
+	if (NappiO=="NappiInfoOn") {$("#InfoOverU").animate({width: '0%'}, 200);};
+};
+// **********************************************************************
+function Overi(ob) { 
+	var Nappi= ob.id;
+ 
+	if (Nappi=="NappiMenu") {document.getElementById(Nappi).style.cursor = "pointer"; };
+	if (Nappi=="NappiFullS") {document.getElementById(Nappi).style.cursor = "pointer"; };
+	if (Nappi=="NappiFullD") {document.getElementById(Nappi).style.cursor = "pointer";};  
+	if (Nappi=="NappiSmaller") {document.getElementById(Nappi).style.cursor = "pointer"; };
+	if (Nappi=="NappiBigger") {document.getElementById(Nappi).style.cursor = "pointer"; };
+	
+	//if (Nappi=="NappiPlayA") {document.getElementById(Nappi).style.cursor = "pointer"; };
+	if (Nappi=="NappiSleepOk") {document.getElementById(Nappi).style.cursor = "pointer"; };
+	
+	
+	if (Nappi=="NappiBack") {document.getElementById(Nappi).src ="../images/Buttons_11.png"; document.getElementById(Nappi).style.cursor = "pointer"; };
+	if (Nappi=="NappiForward") {document.getElementById(Nappi).src ="../images/Buttons_12.png"; document.getElementById(Nappi).style.cursor = "pointer"; }; 
+	if (Nappi=="NappiPlay") {document.getElementById(Nappi).src ="../images/Buttons_03.png"; document.getElementById(Nappi).style.cursor = "pointer"; };
+	if (Nappi=="NappiPlayPause") {document.getElementById(Nappi).src ="../images/ButtonsSPaus_03.png"; document.getElementById(Nappi).style.cursor = "pointer"; };
+	
+	
+// **********
+	
+	if (Nappi=="NappiJo") {document.getElementById(Nappi).style.cursor = "pointer"; $("#JoOverU").animate({width: '100%', left: '0%'}, 200);};
+	if (Nappi=="NappiNoba") {document.getElementById(Nappi).style.cursor = "pointer"; $("#NobaOverU").animate({width: '100%', left: '0%'}, 200);};
+	if (Nappi=="NappiAmbsu") {document.getElementById(Nappi).style.cursor = "pointer"; $("#AmbsuOverU, #AmbsuOverUU").animate({height: '26'}, 200);};
+	if (Nappi=="NappiKansi") {document.getElementById(Nappi).style.cursor = "pointer"; $("#KansiOverU").animate({width: '100%', left: '0%'}, 200);};
+	if (Nappi=="NappiTwo") {document.getElementById(Nappi).style.cursor = "pointer"; $("#TwoOverU").animate({width: '100%', left: '0%'}, 200); $("#TwoOverUU").animate({height: '26'}, 200);};
+	if (Nappi=="NappiLava") {document.getElementById(Nappi).style.cursor = "pointer"; $("#LavaOverU").animate({width: '100%', left: '0%'}, 200);};
+	if (Nappi=="NappiAita") {document.getElementById(Nappi).style.cursor = "pointer"; $("#AitaOverUU, #AitaOverU").animate({height: '14'}, 200);};
+	if (Nappi=="NappiNaapuri") {document.getElementById(Nappi).style.cursor = "pointer"; $("#NaapuriOverU").animate({width: '100%', left: '0%'}, 200); $("#NaapuriOverUU").animate({height: '36'}, 200);};
+	if (Nappi=="NappiFrontBench") {document.getElementById(Nappi).style.cursor = "pointer"; $("#FrontBenchOverU").animate({width: '100%', left: '0%'}, 200); $("#FrontBenchOverUU").animate({height: '32'}, 200);};
+	if (Nappi=="NappiBC") {document.getElementById(Nappi).style.cursor = "pointer"; $("#BCgameOverU").animate({width: '100%', right: '0%'}, 200);};
+	if (Nappi=="NappiSound") {document.getElementById(Nappi).style.cursor = "pointer"; $("#SoundOverU").animate({width: '100%', right: '0%'}, 200);};
+// **********
+	
+	if (Nappi=="NappiMailOn") {document.getElementById(Nappi).style.cursor = "pointer"; $("#MailOverU").animate({width: '100%', left: '0%'}, 200);};
+	if (Nappi=="NappiInfoOn") {document.getElementById(Nappi).style.cursor = "pointer"; $("#InfoOverU").animate({width: '100%'}, 200);};
+	if (Nappi=="slPimennys") {document.getElementById(Nappi).style.cursor = "pointer"; };
+	
+	if (Nappi=="shareBtne") {document.getElementById(Nappi).style.cursor = "pointer"; };
+	if (Nappi=="BCamp") {document.getElementById(Nappi).style.cursor = "pointer"; }; //DonateBtnBig
+	if (Nappi=="DonateBtnBig") {document.getElementById(Nappi).style.cursor = "pointer"; };
+	
+}; 
+// ******************************* KIELI CLICK *************************************************************
+function kieli(ob) { 
+	var Nappi= ob.id;
+	
+	if (Nappi=="langeng") {kielieng()};
+	if (Nappi=="langfin") {kielifin()};
+}; 
+function kielieng() { 
+	document.getElementById("langeng").src ="../images/fin.png"; langeng.id="langfin";
+	document.getElementById("iteksti").src ="../images/info_sketz1_eng.png";
+	document.getElementById("tekeilla").src ="../images/logoinfo_eng.png";
+	document.getElementById("obaplogo").src ="../images/obap-weblogo-eng.png"; 
+
+}; 
+function kielifin() { 
+	document.getElementById("langfin").src ="../images/eng_11.png"; langfin.id="langeng";
+	document.getElementById("iteksti").src ="../images/info_sketz1.png";
+	document.getElementById("tekeilla").src ="../images/logoinfo_fin.png";
+	document.getElementById("obaplogo").src ="../images/obap-weblogo-fin.png"; 
+
+}; 
+// ****************************** SOITIN NAPPI ROLL OVERI ****************************************
+function sOveri(ob) { 
+	var Nappi= ob.id;
+	//Vpla="ooff";
+	//if (myAuto) {window.clearTimeout(myAuto);};
+	document.getElementById(Nappi).className="btoo";    
+	document.getElementById(Nappi).style.cursor = "pointer";
+}; 
+// ****************************** SOITIN NAPPI ROLL OVERI ****************************************
+function sOveriRed(ob) { 
+	var Nappi= ob.id;
+	//Vpla="ooff";
+	//if (myAuto) {window.clearTimeout(myAuto);};
+	clearInterval(SleepVare);
+	document.getElementById(Nappi).className="btoored";     
+	document.getElementById(Nappi).style.cursor = "pointer";
+};
+// ******************************* SOITIN NAPPI ROLL OUTTI ***************************************
+function sOuttiRed(ob) { 
+	var Nappi= ob.id;
+	//Vpla="oon";
+	//if (myAuto) {window.clearTimeout(myAuto);};
+	SleepVare = setInterval(Pumpp, 10000);
+	document.getElementById(Nappi).className="btoP";
+}; 
+// ******************************* SOITIN NAPPI ROLL OUTTI ***************************************
+function sOutti(ob) { 
+	var Nappi= ob.id;
+	//Vpla="oon";
+	//if (myAuto) {window.clearTimeout(myAuto);};
+	document.getElementById(Nappi).className="bto";
+}; 
+// ****************************** INFO NAPPI ROLL OVERI ****************************************
+function InfoOveri(ob) { 
+	var Nappi= ob.id;
+	document.getElementById(Nappi).style.cursor = "pointer";
+}; 
+// ******************************* SOITIN ROLL OVERI ***************************************
+function SoitinOveri() { 
+	/* VlpaM=Vpla;
+	Vpla="ooff"; */
+	
+};
+// ******************************* SOITIN ROLL OUTTI ***************************************
+function SoitinOutti() { 
+	/* Vlpa=Vlpa; */
+};
+// **********************************************************************  
+function MClick(obj) {
+	var NappiC= obj.id; sllPimennys
+	
+	if (NappiC=="sllPimennys") {$("#ylat").stop(); $("#about").stop(); $("#about").animate({opacity: '0.95'}, 600); $("#ylat").animate({opacity: '1'}, 10); document.body.style.cursor = "default" /*
+	window.clearTimeout(timer); $("#ylat").stop(); $("#ylat").animate({opacity: '1'}, 30); document.body.style.cursor = "default"; timer = window.setTimeout(function() { stoppedMoving(evt); }, 5000); */};
+	
+	if (NappiC=="page-background" && Vpla=="ooff") {VMenusiirto(); };
+	if (NappiC=="NappiMailOn") {$("#pimennysMail").animate({height: '512px'}, 1000); NappiMailOn.id="NappiMailOff"; $("#pimm-taustaMail").animate({top: '100%'}, 10000); InfoAni();}; //VNro=VNro-1;  VSiirto(); 
+	if (NappiC=="NappiMailOff") {$("#pimennysMail").animate({height: '0%'}, 1000); NappiMailOff.id="NappiMailOn";};
+	if (NappiC=="NappiMailOfff") {$("#pimennysMail").animate({height: '0%'}, 1000); NappiMailOff.id="NappiMailOn"; $("#MailOverU").animate({width: '0%', left: '100%'}, 200);};
+	
+	if (NappiC=="NappiInfoOn") {/*document.getElementById("obap").innerHTML = '1'*/;$("#pimennys").animate({height: '550px'}, 1000); $("#pimennysNavi").animate({height: '60px'}, 1000); NappiInfoOn.id="NappiInfoOff"; InfoM="on"; $("#pimm-tausta").stop(true).animate({top: '-1%'}, 1).animate({top: '100%'}, 10000); InfoAni();}; //VNro=VNro-1;  VSiirto(); 
+	if (NappiC=="NappiInfoOff") {$("#pimennys").animate({height: '0%'}, 1000); $("#pimennysNavi").animate({height: '0%'}, 1000); NappiInfoOff.id="NappiInfoOn"; InfoM="off";};
+	if (NappiC=="NappiInfoOfff") {$("#pimennys").animate({height: '0%'}, 1000); $("#pimennysNavi").animate({height: '0%'}, 1000); NappiInfoOff.id="NappiInfoOn"; $("#InfoOverU").animate({width: '0%'}, 200);InfoM="off";};
+	if (NappiC=="HomeBtnInfo") {$('#pim').mCustomScrollbar('scrollTo','0');};
+	if (NappiC=="OpasBtnInfo") {$('#pim').mCustomScrollbar('scrollTo','875');} 
+	if (NappiC=="IdeaBtnInfo") {$('#pim').mCustomScrollbar('scrollTo','1170');}
+	if (NappiC=="NewsBtnInfo") {$('#pim').mCustomScrollbar('scrollTo','3330');}
+	if (NappiC=="ContactBtnInfo") {$('#pim').mCustomScrollbar('scrollTo','3860');}
+	if (NappiC=="DonateBtnInfo") {$('#pim').mCustomScrollbar('scrollTo','4080');}
+							
+	if (NappiC=="NappiMenu") {VMenusiirto() };
+	if (NappiC=="NappiFullS") {document.getElementById("NappiFullS").src ="../images/ButtonsSPaus_07.png"; NappiFullS.id="NappiFullD"; FullScriin(); };
+	if (NappiC=="NappiFullD") {document.getElementById("NappiFullD").src ="../images/Buttons_07.png" ; NappiFullD.id="NappiFullS"; exitFullscreen()};
+	if (NappiC=="NappiSmaller") {NappiSmaller.id="NappiSmallerr"; NappiBigger.id="NappiBiggerr"; Xsize=Xsize-64; Ysize=Ysize-18; Bigger(); };
+	if (NappiC=="NappiBigger") {NappiSmaller.id="NappiSmallerr"; NappiBigger.id="NappiBiggerr"; Xsize=Xsize+64; Ysize=Ysize+18; Bigger(); };  
+	if (NappiC=="NappiBack") {player3.pauseVideo();VNro=VNro-1; VSiirto(); };
+	if (NappiC=="NappiForward") {player3.pauseVideo();VNro=VNro+1; VSiirto(); }; 
+	if (NappiC=="NappiPlay") {NappiPlay.id="NappiPlayPause"; document.getElementById("NappiPlayPause").src ="../images/ButtonsSPaus_03.png"; player3.playVideo(); };
+	if (NappiC=="NappiPlayPause") {NappiPlayPause.id="NappiPlay"; document.getElementById("NappiPlay").src ="../images/Buttons_03.png";player3.pauseVideo(); };
+	
+	if (NappiC=="NappiRepeatAll") {document.getElementById("NappiRepeatAll").src ="../images/ButtonSuffle.png" ;NappiRepeatAll.id="NappiSuffle"; document.getElementById("NappiSuffle").title ="suffle"; RMode="3"; AutoP="On";};  
+	
+	if (NappiC=="NappiSuffle") {document.getElementById("NappiSuffle").src ="../images/ButtonSuffleAll.png" ;NappiSuffle.id="NappiSuffleAll"; document.getElementById("NappiSuffleAll").title ="suffle all"; RMode="4"; AutoP="On";};
+	
+	if (NappiC=="NappiSuffleAll") {document.getElementById("NappiSuffleAll").src ="../images/ButtonPlayOne.png" ;NappiSuffleAll.id="NappiPlayOne"; document.getElementById("NappiPlayOne").title ="play ones"; RMode="0"; AutoP="Off";};
+		
+	if (NappiC=="NappiPlayOne") {document.getElementById("NappiPlayOne").src ="../images/ButtonRepeatOne.png" ;NappiPlayOne.id="NappiRepeatOne"; document.getElementById("NappiRepeatOne").title ="repeat one"; RMode="1"; AutoP="On";};
+	
+	if (NappiC=="NappiRepeatOne") {document.getElementById("NappiRepeatOne").src ="../images/ButtonRepeatAll.png" ;NappiRepeatOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	
+	
+	if (NappiC=="NappiSleepT") {document.getElementById("sleepss").disabled = false; $("#sleepT").animate({width: '250px'}, 300); $("#pimm-taustaSleep").animate({left: '100%'}, 10000); document.getElementById("NappiSleepT").src ="../images/ButtonSleepTof.png" ; NappiSleepT.id="NappiSleepTT"; SleepTimeri="on";}; 
+	if (NappiC=="NappiSleepTT") {$("#sleepT").animate({width: '0px'}, 300); $("#ajastin").animate({right: '-360px'}, 1000); document.getElementById("NappiSleepTT").src ="../images/ButtonSleepT.png" ;NappiSleepTT.id="NappiSleepT";SleepTimeri="off";}; //clearTimeout(SleepVar); 
+	
+	if (NappiC=="NappiSleepOk") {SleepTimerCheck() }; 
+	if (NappiC=="NappiPlayA") {AutoAlu="K"; PlayerRandom(); }; //VNro=VNro+1;
+// *******	
+	if (NappiC=="NappiJo") {VName=Jo; VSiirtoAni(); };
+	if (NappiC=="NappiNoba") {VName=Noba; VSiirtoAni(); };
+	if (NappiC=="NappiAmbsu") {VName=Ambsu; VSiirtoAni(); };
+	if (NappiC=="NappiKansi") {VName=Kansi; VSiirtoAni(); };
+	if (NappiC=="NappiTwo") {VName=Two; VSiirtoAni(); };
+	if (NappiC=="NappiLava") {VName=Lava; VSiirtoAni(); };
+	if (NappiC=="NappiAita") {VName=Aita; VSiirtoAni(); }; 
+	if (NappiC=="NappiNaapuri") {VName=Neighbor; VSiirtoAni(); };
+	if (NappiC=="NappiFrontBench") {VName=FBench; VSiirtoAni(); };  
+	if (NappiC=="NappiBC") {window.open("http://game.obap.info/") };
+	if (NappiC=="NappiSound") {window.open("http://sound.obap.info/") };
+	
+// *******	
+		if (NappiC=="slPimennys") {$("#slPimennys").stop(true);document.getElementById("slPimennys").style.width= '0px'; document.getElementById("slPimennys").style.height= '0px'; document.getElementById("slPimennys").style.opacity= '0'; document.getElementById("slPimennys").style.zIndex = '0'; document.getElementById("NappiSleepTT").src ="../images/ButtonSleepT.png" ;NappiSleepTT.id="NappiSleepT";SleepTimeri="off"; };
+		
+	if (NappiC=="BCamp") {window.open("https://obap.bandcamp.com/") };  //DonateBtnBig
+	
+};
+// ********************************************************************** 
+function InfoAni(){
+	//document.getElementById("obap").innerHTML = '3';
+	if (InfoM=="on"){ $("#pimm-tausta").animate({top: '-1%'}, 1).animate({top: '100%'}, 10000), InfoAni()};  //document.getElementById("pimm-tausta").style.Top="0px";
+};
+// **********************************************************************
+function SleepTimerCheck(){ SleepTimer();
+	var tslet = document.getElementById("sleepss").value;
+	if(isNaN(tslet) && tslet == 0){} else {SleepTimer()};
+};
+// **********************************************************************
+function SleepTimer(){
+	var tslet = document.getElementById("sleepss").value;
+	var tsletn = Number(tslet);
+	var nn = tsletn.toString();
+	if (tsletn <= 9999 && tsletn >= 1){SleepTimerOon(tslet); } else {document.getElementById("sleepss").value=""};
+};
+// **********************************************************************
+function SleepTimerOon(tslet){
+	$("#sleepT").animate({width: '0px'}, 300);
+	document.getElementById("ajastin").innerHTML = tslet;
+	$("#ajastin").animate({right: '0px'}, 1000);
+	var oo = tslet;
+	var SleepVar = setTimeout(function(){ SleepTimerC(oo); }, 1000);
+};
+// **********************************************************************
+function SleepTimerC(oo){
+	var ooo = Number(oo);
+	ooo = ooo - 1;
+    document.getElementById("ajastin").innerHTML = ooo;
+	//var styles = 'width:100%; font-size:15em; transform:rotate(20deg)';
+//styles;
+	if (ooo <= 0){document.getElementById("slPimennys").style.zIndex = '20'; document.getElementById("slPimennys").style.width= '100%'; document.getElementById("slPimennys").style.height= '100%';$("#ajastin").animate({right: '-360px'}, 1000); $("#slPimennys").animate({opacity: '1'}, 20000); SleepTAnimat();} else {if (SleepTimeri == "on"){var SleepVar = setTimeout(function(){ SleepTimerC(ooo); }, 1000);};};
+};
+// **********************************************************************    
+function SleepTAnimat(){
+player=player3;
+  currentVolume = player.getVolume();
+  if (currentVolume === 0) {
+    player.pauseVideo();
+    player.unMute(); } else {
+    player.setVolume(currentVolume - 3);
+    return setTimeout(function(){SleepTAnimat(player);}, 1000);
+};
+};	
+// **********************************************************************
+function FullScriin(){
+var elem = document.getElementById("body");
+if (elem.requestFullscreen) {elem.requestFullscreen();
+} else if (elem.mozRequestFullScreen) {
+elem.mozRequestFullScreen();
+} else if (elem.webkitRequestFullscreen) {
+elem.webkitRequestFullscreen();
+}
+};
+// **********************************************************************
+function exitFullscreen() {
+  if(document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if(document.mozCancelFullScreen) {
+    document.mozCancelFullScreen();
+  } else if(document.webkitExitFullscreen) {
+    document.webkitExitFullscreen();
+  }
+};
+// **********************************************************************
+function Bigger(){
+	$("#vnaytto, #vnaytto1, #vnaytto2").stop(true);
+	
+	if (player3==player1){document.getElementById("vnaytto2").style.left= 720+Xsize+"px";} else {document.getElementById("vnaytto1").style.left= 720+Xsize+"px";};
+	
+	document.getElementById("vnaytto").style.height= 500+Ysize+"px";
+	document.getElementById("vnaytto").style.marginTop= -250-(Ysize/2)+"px";
+	document.getElementById("vnaytto").style.width= 710+Xsize+"px";
+	document.getElementById("vnaytto").style.marginLeft= -360-(Xsize/2)+"px";
+	document.getElementById("vnaytto1").style.height= 480+Ysize+"px";
+	document.getElementById("vnaytto1").style.width= 720+Xsize+"px";
+	document.getElementById("vnaytto2").style.height= 480+Ysize+"px";
+	document.getElementById("vnaytto2").style.width= 720+Xsize+"px";
+	
+	player2.setSize(width=720+Xsize, height=405+Ysize);
+	player1.setSize(width=720+Xsize, height=405+Ysize);
+		
+	NappiSmallerr.id="NappiSmaller"; NappiBiggerr.id="NappiBigger";
+	
+}; 
+// **********************************************************************
+function StarBigger(){
+	$("#vnaytto, #vnaytto1, #vnaytto2").stop(true);
+	
+	//if (player3==player1){document.getElementById("vnaytto2").style.left= 720+Xsize+"px";} else {document.getElementById("vnaytto1").style.left= 720+Xsize+"px";};
+	
+	document.getElementById("vnaytto").style.height= 500+Ysize+"px";
+	document.getElementById("vnaytto").style.marginTop= -250-(Ysize/2)+"px";
+	document.getElementById("vnaytto").style.width= 710+Xsize+"px";
+	document.getElementById("vnaytto").style.marginLeft= -360-(Xsize/2)+"px";
+	document.getElementById("vnaytto1").style.height= 480+Ysize+"px";
+	document.getElementById("vnaytto1").style.width= 720+Xsize+"px";
+	document.getElementById("vnaytto2").style.height= 480+Ysize+"px";
+	document.getElementById("vnaytto2").style.width= 720+Xsize+"px";
+	
+	document.getElementById("menu").style.top= 96+(Ysize/2)+"px";
+	document.getElementById("menu").style.left= 180+(Xsize/2)+"px";
+	
+	player2.setSize(width=720+Xsize, height=405+Ysize);
+	player1.setSize(width=720+Xsize, height=405+Ysize);
+		
+	NappiSmallerr.id="NappiSmaller"; NappiBiggerr.id="NappiBigger";
+	
+}; 
+// ******************TAPAHTUMA KUUNTELU****************************************************
+function onPlayerState(event){
+	toisto = event.target.getPlayerState();
+	if (toisto==1){Vpla="oon"; NappiPlay.id="NappiPlayPause"; document.getElementById("NappiPlayPause").src ="../images/ButtonsSPaus_03.png"; }; //play
+	if (toisto==2){Vpla="ooff"; NappiPlayPause.id="NappiPlay"; document.getElementById("NappiPlay").src ="../images/Buttons_03.png"; }//player3.pauseVideo(); }; //pause 
+	//if (toisto==5){Vpla="oon"; NappiPlay.id="NappiPlayPause"; document.getElementById("NappiPlayPause").src ="../images/ButtonsSPaus_03.png"; };
+	
+	//if (toisto==3){Vpla="ooff"; NappiPlayPause.id="NappiPlay"; document.getElementById("NappiPlay").src ="../images/Buttons_03.png"; RModee();};
+	if (toisto==0){Vpla="ooff"; NappiPlayPause.id="NappiPlay"; document.getElementById("NappiPlay").src ="../images/Buttons_03.png"; RModee();};/////////         PlayerRandomS();}; 
+}; 
+// ******************PLAYER RANDOM**************************************************
+function PlayerRandom(){
+	
+	
+	AutoP = "On";
+	TauluM =  KaikeP.length;
+	TeosN = Math.floor(Math.random() * TauluM);
+	
+	VName = KaikeP[TeosN];
+	TeosV = VName.length;
+	VNro = Math.floor(Math.random() * TeosV);
+	
+	document.getElementById("NappiRepeatAll").src ="../images/ButtonSuffleAll.png" ;NappiRepeatAll.id="NappiSuffleAll"; 							
+	document.getElementById("NappiSuffleAll").title ="suffle all"; 
+	RMode=4; 
+	
+	//document.getElementById("obap").innerHTML = VNro ;//+´ ´+ TeosV +´ ´+ VNro;   <img src="../BGimages/BGimage'+Kuva+'
+	if (AutoAlu=="K"){AutoAlu="E"; VSiirtoAni();};  //^^^^^^^^^^^^mikä tama on
+	 
+	 
+	/*
+	document.getElementById("NappiRepeatAll").opacity = 0;
+	document.getElementById("NappiSuffle").opacity = 0;
+	
+	document.getElementById("NappiSuffleAll").opacity = 0;
+	
+	
+	document.getElementById("NappiPlayOne").opacity = 0;
+	document.getElementById("NappiRepeatOne").opacity = 0; 
+	
+	//VNro = Math.floor(Math.random() * VName.lenght);
+	if (AutoAlu=="K"){AutoAlu="E"; VSiirtoAni();} else {VSiirto();};
+	
+	var VNro = Math.floor(Math.random() * TeosV.lenght)+1;
+	
+	VName = TeosV;
+	
+	if (AutoAlu=="K"){AutoAlu="E"; VSiirtoAni();} else {VSiirto();}; */
+};	
+// ******************PLAYER RANDOM sec**************************************************
+function PlayerRandomS(){
+	
+	
+	AutoP = "On";
+	TauluM =  KaikeP.length;
+	TeosN = Math.floor(Math.random() * TauluM);
+	
+	VName = KaikeP[TeosN];
+	TeosV = VName.length;
+	VNro = Math.floor(Math.random() * TeosV);
+	// document.getElementById("obap").innerHTML = VNro ;//+´ ´+ TeosV +´ ´+ VNro;   <img src="../BGimages/BGimage'+Kuva+'
+		 
+	VSiirto();
+	/*
+	//VNro = Math.floor(Math.random() * VName.lenght);
+	if (AutoAlu=="K"){AutoAlu="E"; VSiirtoAni();} else {VSiirto();};
+	
+	var VNro = Math.floor(Math.random() * TeosV.lenght)+1;
+	
+	VName = TeosV;
+	
+	if (AutoAlu=="K"){AutoAlu="E"; VSiirtoAni();} else {VSiirto();}; */
+};		
+	
+
+// ******************REPEAT MODE****************************************************
+function RModee(){ 
+	if (RMode==0){Vpla="ooff";};
+	if (RMode==1){AutoP="On"; VSiirto(); };
+	if (RMode==2){AutoP="On"; VNro=VNro+1; VSiirto(); };
+	if (RMode==3){AutoP="On"; VNro=Math.floor(Math.random() * VName.length); VSiirto(); };
+	if (RMode==4){AutoP="On"; PlayerRandomS(); };
+};
+// *******************ANIMATION***************************************************
+function VSiirtoAni() {
+	Vpla="On"; 
+	
+	/*
+	document.getElementById("NappiRepeatAll").opacity = 0;
+	document.getElementById("NappiSuffle").opacity = 0;
+	
+	document.getElementById("NappiSuffleAll").opacity = 0;
+	
+	
+	document.getElementById("NappiPlayOne").opacity = 0;
+	document.getElementById("NappiRepeatOne").opacity = 0; */
+	
+	$("#sllPimennys").animate({opacity: '1'}, 4000);
+	
+	$("#flogos, #donationFlogos, #BCamp").stop(true);
+	$("#flogos, #donationFlogos, #BCamp").animate({opacity: '0'}, 8000); //, function(){window.clearTimeout(t);}); 
+	$("#about").animate({opacity: '0'}, 1010, function(){document.getElementById("about").style.visibility = "hidden";});
+	//$("#about").animate({opacity: '0.15'}, 1000);
+	$("#NappiPlayA").animate({opacity: '0'}, 1000);
+	//$("#ylat").stop(false); 
+	//$("#about, #NappiPlayA").hide(400);
+	
+	$("#ylat").stop(true); $("#ylat").animate({opacity: '1'}, 1600);
+	$("#soitin").animate({top: '62px'}, 1200);
+	$("#menu").animate({left:'640px'}, 5000);
+	VSiirto();
+};
+// *******************TUNE SIIRTO***************************************************
+function VSiirto() {
+	//window.clearTimeout(myAuto);
+ 
+	VMaara=VName.length;
+	if (VNro==-1){VNro=VMaara-1};
+	if (VNro==VMaara){VNro=0};  
+	if (player3==player1){player3=player2; player3.loadVideoById(VName[VNro]).stopVideo(); $("#vnaytto1").animate({left:725+Xsize+"px"}, 2000); $("#vnaytto2").animate({left:'0px'}, 2000); } else {player3=player1; player3.loadVideoById(VName[VNro]).stopVideo(); $("#vnaytto2").animate({left:725+Xsize+"px"}, 2000); $("#vnaytto1").animate({left:'0px'}, 2000); };
+	if (AutoP=="Off"){ Vpla="ooff";  };
+	if (AutoP=="On"){ player3.playVideo(); AutoP="Off"; };
+};
+// **********************************************************************
+function VASiirto() {
+	
+	AutoP="On";
+	VSiirtoAni();
+};
+// ******************MENU ANIMATION****************************************************
+function VMenusiirto() {
+	Vpla="ooff"; 
+	//var NappinImg = 
+	if (player3==player1){ $("#vnaytto1").animate({left:720+Xsize+"px"}, 1200); } else {$("#vnaytto2").animate({left:720+Xsize+"px"}, 1200); };
+	
+	//var disp= document.getElementById("NappiPlay");
+  //if (window.getComputedStyle(disp).display === "none") {document.getElementById("NappiPlayPause").id="NappiPlay"; document.getElementById("NappiPlay").src ="../images/Buttons_03.png"; } else {document.getElementById("NappiPlay").id="NappiPlay"; document.getElementById("NappiPlayPause").src ="../images/Buttons_03.png"; };
+  
+  
+  
+	//if (toisto==1) {document.getElementById("NappiPlayPause").id="NappiPlay"; document.getElementById("NappiPlay").src ="../images/Buttons_03.png"; };
+	
+	if (RMode==0) {document.getElementById("NappiPlayOne").src ="../images/ButtonRepeatAll.png" ;NappiPlayOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	
+	if (RMode==1) {document.getElementById("NappiRepeatOne").src ="../images/ButtonRepeatAll.png" ;NappiRepeatOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	
+	if (RMode==3) {document.getElementById("NappiSuffle").src ="../images/ButtonRepeatAll.png" ;NappiSuffle.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	
+	if (RMode==4) {document.getElementById("NappiSuffleAll").src ="../images/ButtonRepeatAll.png" ;NappiSuffleAll.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+		
+	AutoP="On"; //huom
+	
+	
+	
+	
+	
+	$("#page-background, #flogos, #donationFlogos, #BCamp").stop(true);  
+	$("#sllPimennys").stop(true);
+	$("#sllPimennys").animate({opacity: '0'}, 1000);
+	document.body.style.cursor = "default";
+	
+	document.getElementById("about").style.visibility = "initial";
+	$("#about").animate({opacity: '1'}, 1010);
+	
+	$("#NappiPlayA").animate({opacity: '1'}, 1000);
+	
+	//$("#about, #NappiPlayA").show(400);
+	//$("#page-background").animate({opacity: '0.9'}, 1000);  
+	//----------------------------------------------------------------------------
+	$("#flogos, #donationFlogos, #BCamp").animate({opacity: '1'}, 5000);
+	$("#ylat").animate({opacity: '0'}, 1000);
+	$("#soitin").animate({top: '-90px'}, 800);
+	document.getElementById("menu").style.top= 96+(Ysize/2)+"px";
+	$("#menu").stop(true); $("#menu").animate({left:180+(Xsize/2)+'px'}, 820);
+	player3.pauseVideo().stopVideo();
+	/* $("#pimennys").animate({height: '0%'}, 500)  document.getElementById("menu").style.Left= 180+(Xsize/2)+'px';
+	$("#InfoOverU").animate({width: '0%'}, 200) */
+		if (RMode==0) {document.getElementById("NappiPlayOne").src ="../images/ButtonRepeatAll.png" ;NappiPlayOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	
+	if (RMode==1) {document.getElementById("NappiRepeatOne").src ="../images/ButtonRepeatAll.png" ;NappiRepeatOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	
+	if (RMode==3) {document.getElementById("NappiSuffle").src ="../images/ButtonRepeatAll.png" ;NappiSuffle.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	
+	if (RMode==4) {document.getElementById("NappiSuffleAll").src ="../images/ButtonRepeatAll.png" ;NappiSuffleAll.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+		
+	AutoP="On"; //huom
+};
+// ----------------------------------------------------------------------------
+ var onloadCallback = function() {
+        grecaptcha.render('html_element', {
+          '6Ld7sVcUAAAAAGGOIMUX9YaW5zjekfQJSDpLNn5V' : '6Ld7sVcUAAAAANbd7YbY8GWMC7fNVSEBp67WIcpE'
+        });
+      };
+// ----------------------------------------------------------------------------
+</script>
+</head>
+   <!-- Load Facebook SDK for JavaScript 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>  -->
+  
+<body id="body" onLoad="PreLoad()">
+
+<div id="InfoText"><h1 alt="Ongoing Bit Ambient Project">Ongoing Bit Ambient Project. obap is a style, a grand style and a kind of way to present. It is intended to make visible and interesting form any essential or hidden from recorded space.</h1>
+<h2>obap is a style, a grand style and a kind of way to present. It is intended to make visible and interesting form any essential or hidden from recorded space. obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus</h2>
+<h3>obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus</h3>
+<h4>obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus</h4>
+<h5>obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus</h5>
+<h6>obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus</h6>
+<h7>obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus</h7>
+<h8>obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus</h8>
+</div>
+
+<div id="page-background" onClick="MClick(this)"></div>
+<div id="page-background2" onClick="MClick(this)"></div> 
+<div id="page-backgroundPIM"></div>
+<!-- ********************************************************************************************* -->
+<div id="PreLoad">
+<div id="PreLoadMeter"></div>
+</div>
+<!-- ********************************************************************************************* -->
+<div id="slPimennys" onClick="MClick(this)" onMouseOver="Overi(this)"><p style="color: #313131; opacity: 0.6;">click mouse to continue</p></div>  
+<div id="sllPimennys" onClick="MClick(this)"></div>
+<!-- **************** INFO PAGE ******************************************************************************* -->
+<div id="pimennys"><div id="pimennysNavi">
+<div id="ppNavi">
+<table>
+		<tr>
+        <th><img src="../images/HomeButtonInfo_03.png" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="HomeBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
+        <th><img src="/tyhja.png" width="3" height="0"></th>
+        <th><img src="../images/OpasButtonInfo_05.png" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="OpasBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
+		<th><img src="/tyhja.png" width="3" height="0"></th> 
+        <th><img src="../images/IdeaButtonInfo.png" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="IdeaBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)" title="Idea"></th>
+		<th><img src="/tyhja.png" width="3" height="0"></th> 
+        <th><img src="../images/NewsButton_07.png" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="NewsBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
+		<th><img src="/tyhja.png" width="4" height="0"></th> 
+        <th><img src="../images/ContactButtonInfo.png" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="ContactBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
+		<th><img src="/tyhja.png" width="2" height="0"></th>  
+        <th><img src="../images/DonateButtonInfo.png" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="DonateBtnInfo" onClick="MClick(this)" title="lahjoita/donate" onMouseOver="InfoOveri(this)"></th>
+		<th><img src="/tyhja.png" width="2" height="0"></th> 
+        <th><img src="../images/eng_11.png" alt="obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="langeng" onClick="kieli(this)" width="36" onMouseOver="InfoOveri(this)"></th>
+		<th><img src="/tyhja.png" width="92" height="1"></th>   
+		<th><span class="closebtn" alt="obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="NappiInfoOfff" style="z-index:'20';" onClick="MClick(this);">&times;</span></th> <!-- font-family:'Times New Roman', Times, serif; -->
+		<th><img src="/tyhja.png" width="0"></th>
+</tr></table></div>
+</div>
+
+<div id="pimm-tausta"></div>
+
+<div id="pim"><img id="iteksti" src="../images/info_sketz1.png">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="2C9VGS3QPEH5U">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+<img src="/tyhja.png" height="600" width="0">
+<div id="InfoClButton"></div>
+<p></p>
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- **************** MAIL SENT *************************************************************************** -->
+<div id="pimennysMail">
+<div id="pimm-taustaMail"></div>
+<div id="pimMail">
+<table id="mailT" align="center">
+<form action="/contact.php" method="post" target="_blank">
+    <tr>
+    <td></td></tr>
+    <tr>
+    <th><p>viesti/message</p></th></tr>
+    <tr>
+    <th><textarea name="email_content" style="line-height: 1.25; resize:none; font-family:'Shruti';" cols=33 rows="11" placeholder="" ></textarea></th></tr>
+    <tr>
+    <th><p style="font-family:'AgencyFB'; font-size:16px"; >message is sent to rantatuoli@phnet.fi</p></th></tr>
+    <tr>
+    <th><img src="/tyhja.png" width="0" hight="24"></th></tr>
+    <tr>
+    <th><p style="font-family:'AgencyFB'">lähettäjä/sender</p></th></tr>
+    <tr>
+    <th><textarea name="email_sender" style="height:34; resize:none; font-family:'Shruti';" cols=33 rows="1" placeholder="email or name:"></textarea></th></tr>
+    <tr>
+    <th><img src="/tyhja.png" width="0" hight="96"></th></tr>
+    <tr>
+    <th align="center">
+    <form action="?" method="POST">
+    <div id="html_element"></div>
+    <input type="image" name="submit" align="middle" src="../images/OKButton_Sleep.png" value="Send it"></th></tr> <!-- class="hyperlink" -->
+      </form>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
+    <th><img src="/tyhja.png" width="0" hight="6"></th></tr>
+    <tr>
+    <!--  <th><p style="font-family:'AgencyFB'; font-size:16px"; >message is sent to rantatuoli@phnet.fi</p></th></tr>
+    <tr>  -->
+
+<!--   <button
+class="g-recaptcha"
+data-sitekey="6Ld7sVcUAAAAAGGOIMUX9YaW5zjekfQJSDpLNn5V"
+data-callback="YourOnSubmitFn">
+Subdick
+</button> -->
+
+</form>
+</table>
+<div id="MailClButton"><span class="closebtn" id="NappiMailOfff" onClick="MClick(this);">&times;</span></div>
+</div>
+</div>
+<!-- ************************************************************************************************ -->
+
+<div id="sleepT">
+<div id="pimm-taustaSleep"></div>
+<div id="TextD">
+
+<table id="tableSleep">
+	<tr>
+	<td align="left" style="color:#CCC;">nukkuu/sleeps</td> 
+    <td><img src="/tyhja.png" width="16" height="0"></td>
+    <td rowspan="2" style="vertical-align:bottom"><img  id="NappiSleepOk" src="../images/OKButton_Sleep.png" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="timeset" value="ok"></td>
+    </tr>
+	<tr>
+    <td>
+    <input id="sleepss" type="text" style="font-family:Shruti; font-size: 24pt; height:38; z-index:: 20;overflow:hidden; resize:none;" size="1" placeholder="sec"></input>
+    </td>
+	</tr>
+</table>
+</div>
+
+</div> 
+
+
+<!-- **************** SOITIN ********************************************************************** -->
+<div id="ylat">
+<div id="soitin" onMouseOut="SoitinOutti(this)" onMouseOver="SoitinOveri(this)">
+<table id="TablePlay" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+        <!-- <th style="vertical-align:middle"><img id="NappiMenu" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="menu" src="../images/Buttons_06.png">
+        </th>
+        <th><img src="/tyhja.png" width="4"></th> style="opacity:[btocity]"     -->
+        <th style="vertical-align:middle"><img id="NappiFullS" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="fullscreen" src="../images/Buttons_07.png"></th>
+        <th><img src="/tyhja.png" width="6" height="0"></th>
+        <th style="vertical-align:middle"><img id="NappiSmaller" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="smaller" src="../images/Buttons_08.png"></th>
+        <th><img src="/tyhja.png" width="5" height="0"></th>
+        <th style="vertical-align:middle"><img id="NappiBigger" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="bigger" src="../images/Buttons_09.png"></th>
+        <th><img src="/tyhja.png" width="15" height="0"></th>
+        <th style="vertical-align:middle"><img id="NappiBack" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="prewies" src="../images/Buttons_11.png"></th>
+        <th><img src="/tyhja.png" width="4" height="0"></th>
+        <th style="vertical-align:middle"><img id="NappiForward" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="forward" src="../images/Buttons_12.png"></th>
+        <th><img src="/tyhja.png" width="3" height="0"></th>
+        <th><img id="NappiPlay" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="play" src="../images/Buttons_03.png"></th>
+        <th><img src="/tyhja.png" width="10" height="0"></th>
+        <th valign="bottom"><img id="NappiRepeatAll" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="repeat all" src="../images/ButtonRepeatAll.png"></th>
+        <th><img src="/tyhja.png" width="3" height="0"></th>
+        <th valign="bottom"><img id="NappiSleepT" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="sleep timer" src="../images/ButtonSleepT.png"></th>
+        </tr>
+</table>	
+    </div>
+    
+    </div> 
+<!-- ***************************** VIDEO NAYTTO MENU ********************************************************* -->
+<div id="vnaytto">
+
+	<div id="menu">
+   
+        <img id="obaplogo" alt="obap info" src="../images/obap-weblogo-eng.png"><br>
+        <img src="/tyhja.png" height="50" width="0">
+        	<img id="tekeilla">
+            <img src="/tyhja.png" height="0">
+            <div id="menuu">
+        <table align="center"  border="0">
+        	<td>
+            <img src="/tyhja.png" width="0" height="3">
+<!-- ******************************************************************************* -->
+            <table id="menuMarkiiiiiiiiii">
+        	<tr>
+            	<th><img src="/tyhja.png" width="5" height="0"></th>
+                <th><img id="NappiJo" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see jo" src="../images/joButton.png" ></th>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><div id="JoOverU"></div></td>
+            </tr>
+         	</table>
+<!-- ******************************************************************************* -->           
+            <table id="menuMarkiii">
+        	<tr>
+            	<th></th>
+                <th><img id="NappiKansi" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see kansi" src="../images/kansiButton.png"></th>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><div id="KansiOverU"></div></td>
+            </tr>
+   			</table>
+            <img src="/tyhja.png" height="0">
+<!-- ******************************************************************************* -->
+            <table id="menuMarkiiiiii">
+        	<tr>
+            	<th><div id="FrontBenchOverUU"></div></th>
+                <th><img id="NappiFrontBench" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see front bench" src="../images/frontbenchButton.png"></th>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><div id="FrontBenchOverU"></div></td>
+            </tr>
+            </table>
+            <img src="/tyhja.png" width="0" height="5">
+<!-- ******************************************************************************* -->
+            <table id="menuMarkiiii">
+        	<tr>
+            	<th><img src="/tyhja.png" width="5" height="0"></th>
+                <th><img id="NappiLava" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see lava" src="../images/lavaButton.png" ></th>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><div id="LavaOverU"></div></td>
+            </tr>
+         	</table>
+            <img src="/tyhja.png" height="0">
+<!-- ******************************************************************************* -->
+            <table id="menuMarkiiiiii">
+        	<tr>
+            	<th><div id="NaapuriOverUU"></div></th>
+                <th><img id="NappiNaapuri" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see neigborhood sound" src="../images/naapuriButton.png"></th>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><div id="NaapuriOverU"></div></td>
+            </tr>
+            </table>
+            <td>
+            </table>
+<!-- ******************************************************************************* -->
+            <table id="menuTwoC">
+        	<tr>
+            	<th><img src="/tyhja.png" width="0" height="0"></th>
+                <th><img id="NappiTwo" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see twoclainsg" src="../images/twoclaingsButton.png"></th>
+                <th><div id="TwoOverUU"></div></th>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><div id="TwoOverU"></div></td>
+            </tr>
+   			</table>
+             <img src="/tyhja.png" width="0" height="3">
+<!-- ******************************************************************************* -->
+            <table id="menuAita">
+        	<tr>
+            	<th><div id="AitaOverUU"></div></th>
+                <th><img id="NappiAita" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see aita" src="../images/aitaButton.png" ></th>
+                <th><div id="AitaOverU"></div></th>
+            </tr>
+            
+            </table>
+            <img src="/tyhja.png" width="0" height="10">
+<!-- ******************************************************************************* -->            
+            <table id="menuNoba">
+        	<tr>
+            	<th><img src="/tyhja.png" width="4" height="0"></th>
+                <th><img id="NappiNoba" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see noba" src="../images/nobaButton.png" width="74%" height="74%"></th>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><div id="NobaOverU"></div></td>
+            </tr>
+            </table>
+            <img src="/tyhja.png" width="0" height="3">
+<!-- ******************************************************************************* -->
+        	<table id="menuAmbsu">
+        	<tr>
+            	<th><div id="AmbsuOverU"></div></th>
+                <th><img id="NappiAmbsu" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see ambsu" src="../images/ambsuButton.png" width="88%" height="88%"></th>
+                <th><div id="AmbsuOverUU"></div></th>
+            </tr>	
+            
+            </table>
+            <img src="/tyhja.png" width="0" height="35">
+<!-- *******************************************************************************  
+            <table id="menuMarkiiiiiiiii">
+        	<tr>
+            	<th><img src="/tyhja.png" width="0" height="8"></th>
+                <th><img id="NappiBC" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="open BC game page" src="../images/BCgameButton.png" ></th>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><div id="BCgameOverU"></div></td>
+            </tr>
+         	</table>
+            <img src="/tyhja.png" width="0" height="3">
+<!-- ******************************************************************************* 
+            <table id="menuSoundL">
+        	<tr>
+            	<th><img src="/tyhja.png" width="0" height="8"></th>
+                <th><img id="NappiSound" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="open sound links page" src="../images/soundlinksButton.png" ></th>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><div id="SoundOverU"></div></td>
+            </tr>
+         	</table>  -->               
+        	<img src="/tyhja.png" width="0" height="12">
+            <img src="/tyhja.png" width="0" height="12">
+              </div>  
+        </div>  
+    	<div id="vnaytto1">
+       	<div id="ytplayer1"></div></div>
+        <div id="vnaytto2">
+        <div id="ytplayer2"></div></div>
+	</div>
+</div>
+<!-- ****************** ABOUT MENU ********************************'***************************** -->
+<div id="aboutObap">
+<img id="NappiMenu" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="main" src="../images/Button_obap_home.png"></div>
+<div id="about">
+<table>
+		<tr>
+        <th><img src="/tyhja.png" width="85" height="0"></th>
+        <th><img src="/tyhja.png" width="3" height="0"></th>
+        <th><img align="bottom" id="NappiMailOn" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="send mail" src="../images/Button_Mail.png" ></th>
+			<th></th>
+			<th><img align="middle" id="NappiInfoOn" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="about" src="../images/Button_Info.png" ></th>
+			<th><img src="/tyhja.png" width="0"></th>
+            <th><img align="middle" id="NappiBC" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="open BC game by obap" src="../images/Button_Game.png" ></th>
+			<th><img src="/tyhja.png" width="0"></th>
+            <th><img align="middle" id="NappiSound" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="open sound links page" src="../images/Button_SLinks.png" ></th>
+			<th><img src="/tyhja.png" width="0"></th>
+			
+  		</tr>
+        <tr>
+        	<td></td>
+            <td></td>
+            <td><div id="MailOverU"></div></td>
+        	<td></td>
+            <td><div id="InfoOverU"></div></td>
+            <td></td>
+            <td><div id="BCgameOverU"></div></td>
+            <td></td>
+            <td><div id="SoundOverU"></div></td>
+            <td></td>
+            
+      	</tr> 
+	</table>
+    
+   <div id="PlayAll">
+<th><img id="NappiPlayA" class="btoP" align="middle" onClick="MClick(this)" onMouseOut="sOuttiRed(this)" onMouseOver="sOveriRed(this)" title="play" src="../images/Button_IPlay_10.png" width="88%" height="88%"></div> 
+</div>
+<!-- ****************** ALATUNNISTEET ************************************************************* -->
+ 
+<div id="obap"><p style="text-align:right">rantatuoli@phnet.fi  2023 (C) obap.info</p></div>
+<div id="ajastin" style="text-align:right; color:#FFF;"></div>
+
+</div>
+
+
+ <!--   //width="80%" height="80%"
+<div id="fb-root"></div><script src="https://connect.facebook.net/en_US/sdk.js"></script><script>
+          FB.init({
+            appId   : 179289739641417,
+            status  : true,
+            xfbml   : true,
+            version : 'v3.2'
+          });
+          FB.AppEvents.logPageView();               Load Facebook SDK for JavaScript -->
+          </script>
+
+<div id="flogos">
+
+<!--  <div id="shareBtne" class="btn btn-success clearfix">On construction</div> -->
+<img id="shareBtne" src="../images/Facebook_Home_logo_old_small.png" alt="Share on Facebook" title="Share via Facebook" onMouseOut="Outti(this)" onMouseOver="Overi(this)">
+</div>
+
+<div id="flogosBC"> 
+
+<img id="BCamp" src="../images/bandcamp.png" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="Digital tracks available via Bandcamp"></div>
+
+<div id="donationFlogos">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="2C9VGS3QPEH5U">
+<input type="image" src="../images/DonateButtonBig.png" title="Donate online via safe PayPal service" border="0" name="submit">
+ 
+</form>
+  
+</div>  
+
+
+<script>
+document.getElementById('shareBtne').onclick = function (event) {
+
+var p = Math.floor(Math.random() * 10) + 1;
+
+
+                // Dynamically gather and set the FB share data. 
+                var FBDesc      = 'Kuvaus';
+                var FBTitle     = 'Oleva Bitti Ambientti Projekti';
+				var FBTitleE 	= 'Ongoing Bit Ambient Project';
+                var FBLink      = 'http://www.obap.info';
+                var FBPic       = 'http://www.obap.info/FBshare/FBshareP1JO.png';
+
+                // Open FB share popup
+
+var url="http://www.obap.info"; //Set desired URL here
+var img="http://www.obap.info/FBshare/FBshareP1JO.png"; //Set Desired Image here   var totalurl=encodeURIComponent(url+'?img='+img);
+var totalurl=encodeURIComponent(url+'?img='+img);
+/* FB.ui({
+  method: 'share',
+  action_type: 'og.shares',
+  action_properties: JSON.stringify({
+    object: { title: "titlehan",
+     
+		 
+    	name: 'obap ambsu',
+		caption: 'mikä on kaption',
+    	image: 'http://www.obap.info/FBshare/FBshareP3.png',
+    	description: 'kuvaus saitista',
+		attacment: { href: 'obap.info' 
+		}
+    }
+  })
+}, function(){});    */
+
+//window.open ('http://www.facebook.com/sharer/sharer.php?u=http://www.obap.info?i=http://www.obap.info/FBshare/FBshareP3.png?t=obap titlee?s=kuvaus matskusta');
+
+//window.open ('http://www.facebook.com/sharer.php?u=http://www.obap.info?i=http://www.obap.info/FBshare/FBshareP3.png?t=obaptitlee?s=kuvausmatskusta,');
+window.open ('http://www.facebook.com/sharer.php?u='+totalurl,'','width=600, height=600, scrollbars=yes, resizable=no');
+}
+
+</script>
+
+
+</body>
+</html>

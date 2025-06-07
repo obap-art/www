@@ -30,7 +30,7 @@
  
    
 <link rel="stylesheet" href="malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css" />
-<link rel="icon" href="images/obap-weblogo-for-ico.png" type="image/png" sizes="64x64">
+<link rel="icon" href="../images/obap-weblogo-for-ico.png" type="image/png" sizes="64x64">
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -56,11 +56,11 @@ body {background-color:#000; }
 
 @font-face {
     font-family: AgencyFB;
-    src: url(Font/AGENCYR.TTF); 
+    src: url(../Font/AGENCYR.TTF); 
 	color:#FFF; }
 @font-face {
 	font-family: Shruti;
-    src: url(Font/shruti.TTF); 
+    src: url(../Font/shruti.TTF); 
 	color:#CCC; }
 textarea { font-family:Verdana, Geneva, sans-serif; font-size: 18px; background-color:#75B78C ;color:#CCCCCC;}
 
@@ -312,15 +312,15 @@ var SleepVare = setInterval(Pumpp, 3000);
 		'onReady': PreLoad }
 	});
 };
-// **********************************************************************  images/noda_ambsu_logo_03.png
+// **********************************************************************  ../images/noda_ambsu_logo_03.png
 function PreLoad() {
 
 PreM = PreM + 30; 
 	$("#PreLoadMeter").stop(true);
-  	$("#PreLoadMeter").animate({width: PreM + '%'}, 320, function() {kohde +=1;  /*document.getElementById("obap").innerHTML = PreM */;if (PreM==100){document.getElementById("PreLoad").style.opacity= '0'; /* kielieng(); */ document.getElementById("PreLoad").style.zIndex = '0'; $("#menuu").animate({left: '68px'}, 1200, function() {document.getElementById("langeng").src ="images/fin.png"; langeng.id="langfin";
-	// document.getElementById("iteksti").src ="images/info_sketz1_eng.png";
-	document.getElementById("tekeilla").src ="images/logoinfo_eng.png";
-	document.getElementById("obaplogo").src ="images/obap-weblogo-eng.png"; document.getElementById("tekeilla").src = "images/logoinfo_eng.png"; document.getElementById("page-background").style.opacity= '1'; document.getElementById("vnaytto").style.zIndex = '5';document.getElementById("menu").style.zIndex = '6'; Xsize=Xsize-224; Ysize=Ysize-72; StarBigger(); } );};}); // document.getElementById("obap").innerHTML = PreM };
+  	$("#PreLoadMeter").animate({width: PreM + '%'}, 320, function() {kohde +=1;  /*document.getElementById("obap").innerHTML = PreM */;if (PreM==100){document.getElementById("PreLoad").style.opacity= '0'; /* kielieng(); */ document.getElementById("PreLoad").style.zIndex = '0'; $("#menuu").animate({left: '68px'}, 1200, function() {document.getElementById("langeng").src ="../images/fin.png"; langeng.id="langfin";
+	// document.getElementById("iteksti").src ="../images/info_sketz1_eng.png";
+	document.getElementById("tekeilla").src ="../images/logoinfo_eng.png";
+	document.getElementById("obaplogo").src ="../images/obap-weblogo-eng.png"; document.getElementById("tekeilla").src = "../images/logoinfo_eng.png"; document.getElementById("page-background").style.opacity= '1'; document.getElementById("vnaytto").style.zIndex = '5';document.getElementById("menu").style.zIndex = '6'; Xsize=Xsize-224; Ysize=Ysize-72; StarBigger(); } );};}); // document.getElementById("obap").innerHTML = PreM };
   
 };
 // **********************************************************************
@@ -332,7 +332,7 @@ function TImg() {
 	cou=cou+1;
 	//document.getElementById("obap").innerHTML = Kuva + "----" + KuvaVuoro;
   	//if (VKuva == Kuva) {TImg()};
-  	if (KuvaVuoro >= "1"){document.getElementById("page-background2").innerHTML = '<img src="BGimages/BGimage'+Kuva+'.jpg" width="100%" height="100%" />'; $("#page-background2").animate({opacity: '1'}, 3000, function(){document.getElementById("page-background").style.opacity = "0"; document.getElementById("page-background2").style.zIndex = "1";document.getElementById("page-background").style.zIndex = "2"; });KuvaVuoro=0;} else {document.getElementById("page-background").innerHTML = '<img src="BGimages/BGimage'+Kuva+'.jpg" width="100%" height="100%" />'; $("#page-background").animate({opacity: '1'}, 3000, function(){document.getElementById("page-background2").style.opacity = "0"; document.getElementById("page-background").style.zIndex = "1"; document.getElementById("page-background2").style.zIndex = "2"; });KuvaVuoro=1;}
+  	if (KuvaVuoro >= "1"){document.getElementById("page-background2").innerHTML = '<img src="../BGimages/BGimage'+Kuva+'.jpg" width="100%" height="100%" />'; $("#page-background2").animate({opacity: '1'}, 3000, function(){document.getElementById("page-background").style.opacity = "0"; document.getElementById("page-background2").style.zIndex = "1";document.getElementById("page-background").style.zIndex = "2"; });KuvaVuoro=0;} else {document.getElementById("page-background").innerHTML = '<img src="../BGimages/BGimage'+Kuva+'.jpg" width="100%" height="100%" />'; $("#page-background").animate({opacity: '1'}, 3000, function(){document.getElementById("page-background2").style.opacity = "0"; document.getElementById("page-background").style.zIndex = "1"; document.getElementById("page-background2").style.zIndex = "2"; });KuvaVuoro=1;}
 	var tttt=setTimeout(TImg, 15000);
 	// {$("#page-background").animate({opacity: '0'}, 400, function(){document.getElementById("page-background2").style.zIndex = "1"; document.getElementById("page-background2").style.zIndex = "1"});))}
 	
@@ -392,10 +392,10 @@ function Overi(ob) {
 	if (Nappi=="NappiSleepOk") {document.getElementById(Nappi).style.cursor = "pointer"; };
 	
 	
-	if (Nappi=="NappiBack") {document.getElementById(Nappi).src ="images/Buttons_11.png"; document.getElementById(Nappi).style.cursor = "pointer"; };
-	if (Nappi=="NappiForward") {document.getElementById(Nappi).src ="images/Buttons_12.png"; document.getElementById(Nappi).style.cursor = "pointer"; }; 
-	if (Nappi=="NappiPlay") {document.getElementById(Nappi).src ="images/Buttons_03.png"; document.getElementById(Nappi).style.cursor = "pointer"; };
-	if (Nappi=="NappiPlayPause") {document.getElementById(Nappi).src ="images/ButtonsSPaus_03.png"; document.getElementById(Nappi).style.cursor = "pointer"; };
+	if (Nappi=="NappiBack") {document.getElementById(Nappi).src ="../images/Buttons_11.png"; document.getElementById(Nappi).style.cursor = "pointer"; };
+	if (Nappi=="NappiForward") {document.getElementById(Nappi).src ="../images/Buttons_12.png"; document.getElementById(Nappi).style.cursor = "pointer"; }; 
+	if (Nappi=="NappiPlay") {document.getElementById(Nappi).src ="../images/Buttons_03.png"; document.getElementById(Nappi).style.cursor = "pointer"; };
+	if (Nappi=="NappiPlayPause") {document.getElementById(Nappi).src ="../images/ButtonsSPaus_03.png"; document.getElementById(Nappi).style.cursor = "pointer"; };
 	
 	
 // **********
@@ -430,17 +430,17 @@ function kieli(ob) {
 	if (Nappi=="langfin") {kielifin()};
 }; 
 function kielieng() { 
-	document.getElementById("langeng").src ="images/fin.png"; langeng.id="langfin";
-	document.getElementById("iteksti").src ="images/info_sketz1_eng.png";
-	document.getElementById("tekeilla").src ="images/logoinfo_eng.png";
-	document.getElementById("obaplogo").src ="images/obap-weblogo-eng.png"; 
+	document.getElementById("langeng").src ="../images/fin.png"; langeng.id="langfin";
+	document.getElementById("iteksti").src ="../images/info_sketz1_eng.png";
+	document.getElementById("tekeilla").src ="../images/logoinfo_eng.png";
+	document.getElementById("obaplogo").src ="../images/obap-weblogo-eng.png"; 
 
 }; 
 function kielifin() { 
-	document.getElementById("langfin").src ="images/eng_11.png"; langfin.id="langeng";
-	document.getElementById("iteksti").src ="images/info_sketz1.png";
-	document.getElementById("tekeilla").src ="images/logoinfo_fin.png";
-	document.getElementById("obaplogo").src ="images/obap-weblogo-fin.png"; 
+	document.getElementById("langfin").src ="../images/eng_11.png"; langfin.id="langeng";
+	document.getElementById("iteksti").src ="../images/info_sketz1.png";
+	document.getElementById("tekeilla").src ="../images/logoinfo_fin.png";
+	document.getElementById("obaplogo").src ="../images/obap-weblogo-fin.png"; 
 
 }; 
 // ****************************** SOITIN NAPPI ROLL OVERI ****************************************
@@ -516,8 +516,8 @@ function MClick(obj) {
 	if (NappiC=="DonateBtnInfo") {$('#pim').mCustomScrollbar('scrollTo',UDONATE);}
 							
 	if (NappiC=="NappiMenu") {VMenusiirto() };
-	if (NappiC=="NappiFullS") {document.getElementById("NappiFullS").src ="images/ButtonsSPaus_07.png"; NappiFullS.id="NappiFullD"; FullScriin(); };
-	if (NappiC=="NappiFullD") {document.getElementById("NappiFullD").src ="images/Buttons_07.png" ; NappiFullD.id="NappiFullS"; exitFullscreen()};
+	if (NappiC=="NappiFullS") {document.getElementById("NappiFullS").src ="../images/ButtonsSPaus_07.png"; NappiFullS.id="NappiFullD"; FullScriin(); };
+	if (NappiC=="NappiFullD") {document.getElementById("NappiFullD").src ="../images/Buttons_07.png" ; NappiFullD.id="NappiFullS"; exitFullscreen()};
 	if (NappiC=="NappiSmaller") {NappiSmaller.id="NappiSmallerr"; NappiBigger.id="NappiBiggerr"; Xsize=Xsize-64; Ysize=Ysize-18; Bigger(); };
 	if (NappiC=="NappiBigger") {NappiSmaller.id="NappiSmallerr"; NappiBigger.id="NappiBiggerr"; Xsize=Xsize+64; Ysize=Ysize+18; Bigger(); };  
 	
@@ -529,25 +529,25 @@ function MClick(obj) {
 	
 	//if (RMode==4){AutoP="On"; PlayerRandomS(); };
 	
-	if (NappiC=="NappiPlay") {NappiPlay.id="NappiPlayPause"; document.getElementById("NappiPlayPause").src ="images/ButtonsSPaus_03.png"; player3.playVideo(); };
-	if (NappiC=="NappiPlayPause") {NappiPlayPause.id="NappiPlay"; document.getElementById("NappiPlay").src ="images/Buttons_03.png";player3.pauseVideo(); };
+	if (NappiC=="NappiPlay") {NappiPlay.id="NappiPlayPause"; document.getElementById("NappiPlayPause").src ="../images/ButtonsSPaus_03.png"; player3.playVideo(); };
+	if (NappiC=="NappiPlayPause") {NappiPlayPause.id="NappiPlay"; document.getElementById("NappiPlay").src ="../images/Buttons_03.png";player3.pauseVideo(); };
 	
-	if (NappiC=="NappiRepeatAll") {document.getElementById("NappiRepeatAll").src ="images/ButtonSuffle.png" ;NappiRepeatAll.id="NappiSuffle"; document.getElementById("NappiSuffle").title ="suffle"; RMode="3"; AutoP="On";};  
+	if (NappiC=="NappiRepeatAll") {document.getElementById("NappiRepeatAll").src ="../images/ButtonSuffle.png" ;NappiRepeatAll.id="NappiSuffle"; document.getElementById("NappiSuffle").title ="suffle"; RMode="3"; AutoP="On";};  
 	
-	if (NappiC=="NappiSuffle") {document.getElementById("NappiSuffle").src ="images/ButtonPlayOne.png" ;NappiSuffle.id="NappiPlayOne"; document.getElementById("NappiPlayOne").title ="play ones"; RMode="0"; AutoP="Off";};
+	if (NappiC=="NappiSuffle") {document.getElementById("NappiSuffle").src ="../images/ButtonPlayOne.png" ;NappiSuffle.id="NappiPlayOne"; document.getElementById("NappiPlayOne").title ="play ones"; RMode="0"; AutoP="Off";};
 	
 	/* Suffle ALL ori
-	if (NappiC=="NappiSuffle") {document.getElementById("NappiSuffle").src ="images/ButtonSuffleAll.png" ;NappiSuffle.id="NappiSuffleAll"; document.getElementById("NappiSuffleAll").title ="suffle all"; RMode="4"; AutoP="On";};
+	if (NappiC=="NappiSuffle") {document.getElementById("NappiSuffle").src ="../images/ButtonSuffleAll.png" ;NappiSuffle.id="NappiSuffleAll"; document.getElementById("NappiSuffleAll").title ="suffle all"; RMode="4"; AutoP="On";};
 	
-	if (NappiC=="NappiSuffleAll") {document.getElementById("NappiSuffleAll").src ="images/ButtonPlayOne.png" ;NappiSuffleAll.id="NappiPlayOne"; document.getElementById("NappiPlayOne").title ="play ones"; RMode="0"; AutoP="Off";};  */
+	if (NappiC=="NappiSuffleAll") {document.getElementById("NappiSuffleAll").src ="../images/ButtonPlayOne.png" ;NappiSuffleAll.id="NappiPlayOne"; document.getElementById("NappiPlayOne").title ="play ones"; RMode="0"; AutoP="Off";};  */
 			
-	if (NappiC=="NappiPlayOne") {document.getElementById("NappiPlayOne").src ="images/ButtonRepeatOne.png" ;NappiPlayOne.id="NappiRepeatOne"; document.getElementById("NappiRepeatOne").title ="repeat one"; RMode="1"; AutoP="On";};
+	if (NappiC=="NappiPlayOne") {document.getElementById("NappiPlayOne").src ="../images/ButtonRepeatOne.png" ;NappiPlayOne.id="NappiRepeatOne"; document.getElementById("NappiRepeatOne").title ="repeat one"; RMode="1"; AutoP="On";};
 	
-	if (NappiC=="NappiRepeatOne") {document.getElementById("NappiRepeatOne").src ="images/ButtonRepeatAll.png" ;NappiRepeatOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	if (NappiC=="NappiRepeatOne") {document.getElementById("NappiRepeatOne").src ="../images/ButtonRepeatAll.png" ;NappiRepeatOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
 	
 	
-	if (NappiC=="NappiSleepT") {document.getElementById("sleepss").disabled = false; $("#sleepT").animate({width: '250px'}, 300); $("#pimm-taustaSleep").animate({left: '100%'}, 10000); document.getElementById("NappiSleepT").src ="images/ButtonSleepTof.png" ; NappiSleepT.id="NappiSleepTT"; SleepTimeri="on";}; 
-	if (NappiC=="NappiSleepTT") {$("#sleepT").animate({width: '0px'}, 300); $("#ajastin").animate({right: '-360px'}, 1000); document.getElementById("NappiSleepTT").src ="images/ButtonSleepT.png" ;NappiSleepTT.id="NappiSleepT";SleepTimeri="off";}; //clearTimeout(SleepVar); 
+	if (NappiC=="NappiSleepT") {document.getElementById("sleepss").disabled = false; $("#sleepT").animate({width: '250px'}, 300); $("#pimm-taustaSleep").animate({left: '100%'}, 10000); document.getElementById("NappiSleepT").src ="../images/ButtonSleepTof.png" ; NappiSleepT.id="NappiSleepTT"; SleepTimeri="on";}; 
+	if (NappiC=="NappiSleepTT") {$("#sleepT").animate({width: '0px'}, 300); $("#ajastin").animate({right: '-360px'}, 1000); document.getElementById("NappiSleepTT").src ="../images/ButtonSleepT.png" ;NappiSleepTT.id="NappiSleepT";SleepTimeri="off";}; //clearTimeout(SleepVar); 
 	
 	if (NappiC=="NappiSleepOk") {SleepTimerCheck() }; 
 	if (NappiC=="NappiPlayA") {AutoAlu="K"; PlayerRandom(); }; //VNro=VNro+1;
@@ -565,7 +565,7 @@ function MClick(obj) {
 	if (NappiC=="NappiSound") {window.open("http://sound.obap.info/") };
 	
 // *******	
-		if (NappiC=="slPimennys") {$("#slPimennys").stop(true);document.getElementById("slPimennys").style.width= '0px'; document.getElementById("slPimennys").style.height= '0px'; document.getElementById("slPimennys").style.opacity= '0'; document.getElementById("slPimennys").style.zIndex = '0'; document.getElementById("NappiSleepTT").src ="images/ButtonSleepT.png" ;NappiSleepTT.id="NappiSleepT";SleepTimeri="off"; };
+		if (NappiC=="slPimennys") {$("#slPimennys").stop(true);document.getElementById("slPimennys").style.width= '0px'; document.getElementById("slPimennys").style.height= '0px'; document.getElementById("slPimennys").style.opacity= '0'; document.getElementById("slPimennys").style.zIndex = '0'; document.getElementById("NappiSleepTT").src ="../images/ButtonSleepT.png" ;NappiSleepTT.id="NappiSleepT";SleepTimeri="off"; };
 		
 	if (NappiC=="BCamp") {window.open("https://obap.bandcamp.com/") };  //DonateBtnBig
 	
@@ -683,12 +683,12 @@ function StarBigger(){
 // ******************TAPAHTUMA KUUNTELU****************************************************
 function onPlayerState(event){
 	toisto = event.target.getPlayerState();
-	if (toisto==1){Vpla="oon"; NappiPlay.id="NappiPlayPause"; document.getElementById("NappiPlayPause").src ="images/ButtonsSPaus_03.png"; }; //play
-	if (toisto==2){Vpla="ooff"; NappiPlayPause.id="NappiPlay"; document.getElementById("NappiPlay").src ="images/Buttons_03.png"; }//player3.pauseVideo(); }; //pause 
-	//if (toisto==5){Vpla="oon"; NappiPlay.id="NappiPlayPause"; document.getElementById("NappiPlayPause").src ="images/ButtonsSPaus_03.png"; };
+	if (toisto==1){Vpla="oon"; NappiPlay.id="NappiPlayPause"; document.getElementById("NappiPlayPause").src ="../images/ButtonsSPaus_03.png"; }; //play
+	if (toisto==2){Vpla="ooff"; NappiPlayPause.id="NappiPlay"; document.getElementById("NappiPlay").src ="../images/Buttons_03.png"; }//player3.pauseVideo(); }; //pause 
+	//if (toisto==5){Vpla="oon"; NappiPlay.id="NappiPlayPause"; document.getElementById("NappiPlayPause").src ="../images/ButtonsSPaus_03.png"; };
 	
-	//if (toisto==3){Vpla="ooff"; NappiPlayPause.id="NappiPlay"; document.getElementById("NappiPlay").src ="images/Buttons_03.png"; RModee();};
-	if (toisto==0){Vpla="ooff"; NappiPlayPause.id="NappiPlay"; document.getElementById("NappiPlay").src ="images/Buttons_03.png"; RModee();};/////////         PlayerRandomS();}; 
+	//if (toisto==3){Vpla="ooff"; NappiPlayPause.id="NappiPlay"; document.getElementById("NappiPlay").src ="../images/Buttons_03.png"; RModee();};
+	if (toisto==0){Vpla="ooff"; NappiPlayPause.id="NappiPlay"; document.getElementById("NappiPlay").src ="../images/Buttons_03.png"; RModee();};/////////         PlayerRandomS();}; 
 }; 
 // ******************PLAYER RANDOM**************************************************
 function PlayerRandom(){
@@ -701,11 +701,11 @@ function PlayerRandom(){
 	TeosV = VName.length;
 	VNro = Math.floor(Math.random() * TeosV);
 	
-	document.getElementById("NappiRepeatAll").src ="images/ButtonSuffleAll.png" ;NappiRepeatAll.id="NappiSuffleAll"; 							
+	document.getElementById("NappiRepeatAll").src ="../images/ButtonSuffleAll.png" ;NappiRepeatAll.id="NappiSuffleAll"; 							
 	document.getElementById("NappiSuffleAll").title ="suffle all"; 
 	RMode=4; 
 	
-	//document.getElementById("obap").innerHTML = VNro ;//+´ ´+ TeosV +´ ´+ VNro;   <img src="BGimages/BGimage'+Kuva+'
+	//document.getElementById("obap").innerHTML = VNro ;//+´ ´+ TeosV +´ ´+ VNro;   <img src="../BGimages/BGimage'+Kuva+'
 	if (AutoAlu=="K"){AutoAlu="E"; VSiirtoAni();};  //^^^^^^^^^^^^mikä tama on
 	 
 };	
@@ -720,7 +720,7 @@ function PlayerRandomS(){
 	VName = KaikeP[TeosN];
 	TeosV = VName.length;
 	VNro = Math.floor(Math.random() * TeosV);
-	// document.getElementById("obap").innerHTML = VNro ;//+´ ´+ TeosV +´ ´+ VNro;   <img src="BGimages/BGimage'+Kuva+'
+	// document.getElementById("obap").innerHTML = VNro ;//+´ ´+ TeosV +´ ´+ VNro;   <img src="../BGimages/BGimage'+Kuva+'
 		 
 	VSiirto();
 };		
@@ -786,19 +786,19 @@ function VMenusiirto() {
 	if (player3==player1){ $("#vnaytto1").animate({left:720+Xsize+"px"}, 1200); } else {$("#vnaytto2").animate({left:720+Xsize+"px"}, 1200); };
 	
 	//var disp= document.getElementById("NappiPlay");
-  //if (window.getComputedStyle(disp).display === "none") {document.getElementById("NappiPlayPause").id="NappiPlay"; document.getElementById("NappiPlay").src ="images/Buttons_03.png"; } else {document.getElementById("NappiPlay").id="NappiPlay"; document.getElementById("NappiPlayPause").src ="images/Buttons_03.png"; };
+  //if (window.getComputedStyle(disp).display === "none") {document.getElementById("NappiPlayPause").id="NappiPlay"; document.getElementById("NappiPlay").src ="../images/Buttons_03.png"; } else {document.getElementById("NappiPlay").id="NappiPlay"; document.getElementById("NappiPlayPause").src ="../images/Buttons_03.png"; };
   
   
   
-	//if (toisto==1) {document.getElementById("NappiPlayPause").id="NappiPlay"; document.getElementById("NappiPlay").src ="images/Buttons_03.png"; };
+	//if (toisto==1) {document.getElementById("NappiPlayPause").id="NappiPlay"; document.getElementById("NappiPlay").src ="../images/Buttons_03.png"; };
 	
-	if (RMode==0) {document.getElementById("NappiPlayOne").src ="images/ButtonRepeatAll.png" ;NappiPlayOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	if (RMode==0) {document.getElementById("NappiPlayOne").src ="../images/ButtonRepeatAll.png" ;NappiPlayOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
 	
-	if (RMode==1) {document.getElementById("NappiRepeatOne").src ="images/ButtonRepeatAll.png" ;NappiRepeatOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	if (RMode==1) {document.getElementById("NappiRepeatOne").src ="../images/ButtonRepeatAll.png" ;NappiRepeatOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
 	
-	if (RMode==3) {document.getElementById("NappiSuffle").src ="images/ButtonRepeatAll.png" ;NappiSuffle.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	if (RMode==3) {document.getElementById("NappiSuffle").src ="../images/ButtonRepeatAll.png" ;NappiSuffle.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
 	
-	if (RMode==4) {document.getElementById("NappiSuffleAll").src ="images/ButtonRepeatAll.png" ;NappiSuffleAll.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	if (RMode==4) {document.getElementById("NappiSuffleAll").src ="../images/ButtonRepeatAll.png" ;NappiSuffleAll.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
 		
 	AutoP="On"; //huom
 	
@@ -827,13 +827,13 @@ function VMenusiirto() {
 	player3.pauseVideo().stopVideo();
 	/* $("#pimennys").animate({height: '0%'}, 500)  document.getElementById("menu").style.Left= 180+(Xsize/2)+'px';
 	$("#InfoOverU").animate({width: '0%'}, 200) */
-		if (RMode==0) {document.getElementById("NappiPlayOne").src ="images/ButtonRepeatAll.png" ;NappiPlayOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+		if (RMode==0) {document.getElementById("NappiPlayOne").src ="../images/ButtonRepeatAll.png" ;NappiPlayOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
 	
-	if (RMode==1) {document.getElementById("NappiRepeatOne").src ="images/ButtonRepeatAll.png" ;NappiRepeatOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	if (RMode==1) {document.getElementById("NappiRepeatOne").src ="../images/ButtonRepeatAll.png" ;NappiRepeatOne.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
 	
-	if (RMode==3) {document.getElementById("NappiSuffle").src ="images/ButtonRepeatAll.png" ;NappiSuffle.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	if (RMode==3) {document.getElementById("NappiSuffle").src ="../images/ButtonRepeatAll.png" ;NappiSuffle.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
 	
-	if (RMode==4) {document.getElementById("NappiSuffleAll").src ="images/ButtonRepeatAll.png" ;NappiSuffleAll.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
+	if (RMode==4) {document.getElementById("NappiSuffleAll").src ="../images/ButtonRepeatAll.png" ;NappiSuffleAll.id="NappiRepeatAll"; document.getElementById("NappiRepeatAll").title ="repeat all"; RMode="2"; AutoP="On";};
 		
 	AutoP="On"; //huom
 };
@@ -883,27 +883,27 @@ function VMenusiirto() {
 <div id="ppNavi">
 <table>
 		<tr>
-        <th><img src="images/HomeButtonInfo_03.png" title="home" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="HomeBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
+        <th><img src="../images/HomeButtonInfo_03.png" title="home" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="HomeBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
         <th><img src="/tyhja.png" width="1" height="0"></th>
-        <th><img src="images/OpasButtonInfo_05.png" title="quide" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="OpasBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
+        <th><img src="../images/OpasButtonInfo_05.png" title="quide" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="OpasBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
 		<th><img src="/tyhja.png" width="1" height="0"></th> 
-        <th><img src="images/IdeaButtonInfo.png" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="IdeaBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)" title="idea"></th>
-		<th><img src="/tyhja.png" width="1" height="0"></th> 
-        
-        
-        <th><img src="images/Button_Release.png" title="some releases" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="ReleaseBtn" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
+        <th><img src="../images/IdeaButtonInfo.png" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="IdeaBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)" title="idea"></th>
 		<th><img src="/tyhja.png" width="1" height="0"></th> 
         
-        <th><img src="images/NewsButton_07.png" title="news" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="NewsBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
+        
+        <th><img src="../images/Button_Release.png" title="some releases" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="ReleaseBtn" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
 		<th><img src="/tyhja.png" width="1" height="0"></th> 
-        <th><img src="images/ContactButtonInfo.png" title="contact" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="ContactBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
+        
+        <th><img src="../images/NewsButton_07.png" title="news" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="NewsBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
+		<th><img src="/tyhja.png" width="1" height="0"></th> 
+        <th><img src="../images/ContactButtonInfo.png" title="contact" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="ContactBtnInfo" onClick="MClick(this)" onMouseOver="InfoOveri(this)"></th>
 		<th><img src="/tyhja.png" width="0" height="0"></th>  
-        <th><img src="images/DonateButtonInfo.png" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="DonateBtnInfo" onClick="MClick(this)" title="donate" onMouseOver="InfoOveri(this)"></th>
+        <th><img src="../images/DonateButtonInfo.png" alt="Ongoing Bit Ambient Project obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="DonateBtnInfo" onClick="MClick(this)" title="donate" onMouseOver="InfoOveri(this)"></th>
 		<th><img src="/tyhja.png" width="0" height="0"></th> 
         
-        <th><img id="BCamp" src="images/bandcampcircleaqua64.png" style="width:35px;height:35px;" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="digital tracks available via Bandcamp"><th>
+        <th><img id="BCamp" src="../images/bandcampcircleaqua64.png" style="width:35px;height:35px;" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="digital tracks available via Bandcamp"><th>
         
-        <th><img src="images/eng_11.png" style="display:none;" alt="obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="langeng" onClick="kieli(this)" width="0" onMouseOver="InfoOveri(this)"></th>
+        <th><img src="../images/eng_11.png" style="display:none;" alt="obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="langeng" onClick="kieli(this)" width="0" onMouseOver="InfoOveri(this)"></th>
 		<th><img src="/tyhja.png" width="0" height="1"></th>   
 		<th><span class="closebtn" alt="obap ambient ambientti lahti art video art installaatio luonto nature multimedia art taide video taide multimedia taide tunnelma lahti päijät-häme multimedia space avaruus" id="NappiInfoOfff" style="z-index:'20';" onClick="MClick(this);">&times;</span></th> <!-- font-family:'Times New Roman', Times, serif; -->
 		<th><img src="/tyhja.png" width="0"></th>
@@ -915,7 +915,7 @@ function VMenusiirto() {
 <div id="pim">
 <br><br>
 
-<img src="images/UusiOBAPlogoInfo.png" style="margin-top:24;margin-left:-205;">
+<img src="../images/UusiOBAPlogoInfo.png" style="margin-top:24;margin-left:-205;">
 <p class="infoTekstLeip" style="color:#828282;font-size:12px; margin-top:-77;margin-left:273;">Updated: 22/12/2023</p>
 <br>
 <p class="infoTekstLeip" style="margin-top:38;">Ongoing bit ambient project, obap, has been invented in 2016. Some of the material is however far from the past. Material can also be found in a variety of side projects for a decade. obap is a style, a grand style and kind of way to present</p>
@@ -924,7 +924,7 @@ function VMenusiirto() {
 
 <p class="infoTekstLeip">It is not always possible to stop just to experience or sense, but we can look at and feel this with the screen. However, nothing can replace the actual event, but when viewed from the space, on the other hand, from the moment one can reveal something completely surprising, opaque and extraordinary, which could not be expected to happen when it was actually <span  id="UQUIDE"></span>happening.</p>
  
-<img src="images/UusiPurelyBe.png"style="margin-top:-10;">
+<img src="../images/UusiPurelyBe.png"style="margin-top:-10;">
 
 <p class="infoTekstOts" >USER QUIDE</p>
 <p class="infoTekstLeip" >The obap.info web page has a variety of experience related features. You can enlarge or reduce the image to suit your size. Set repeat feature to continuous, random, single viewing and playall (button in main page) that keeps playin art works randomly forever. There is also a sleeptimer button on player controller that darkens the screen and the sound evaporates evenly after the desired time, so that it doesn´t<span id="UIDEA"></span> break the achieved atmosphere or unity.</p>
@@ -933,7 +933,7 @@ function VMenusiirto() {
 <p class="infoTekstLeip" >Here is one of idea to produce audio, music. The sound landscape is 100% recorded from the shooting location and after which the audio track is mixed and controlled through the midi translator to create digital notes and play information. This information is guided to various virtual synthesizers, samplers. From this coming sound stage, the music has been mixed once and finally mastered.</p>
 <!-- Idea image here -->
 
-<img  src="images/UusiIdeaChart.png" style="margin-left: 3;margin-top:-17;">
+<img  src="../images/UusiIdeaChart.png" style="margin-left: 3;margin-top:-17;">
 <p class="infoTekstLeip" >This way allow us to think that the natural sound of a environment and space is a musician and composer of music. You can find interesting visuals, motion, rhytms, melodies, patterns and soundscapes from the nature.<span id="URELEASE"></span></p><br>
 
 <p class="infoTekstLeip" style="MARGIN-TOP:-17">. . .</p>
@@ -985,7 +985,7 @@ mailing form. Thank you.</p>
 <input type="image" title="Donate online via safe PayPal service" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 <br><br><br>
-<img id="BCamp" src="images/bandcampcircleaqua64.png" style="cursor: pointer;margin-left:-3;" onClick="MClick(this)" title="Digital tracks available via Bandcamp">
+<img id="BCamp" src="../images/bandcampcircleaqua64.png" style="cursor: pointer;margin-left:-3;" onClick="MClick(this)" title="Digital tracks available via Bandcamp">
 
 </form>
 
@@ -1024,7 +1024,7 @@ mailing form. Thank you.</p>
     <th align="center">
     <form action="?" method="POST">
     <div id="html_element"></div>
-    <input type="image" name="submit" align="middle" src="images/OKButton_Sleep.png" value="Send it"></th></tr> <!-- class="hyperlink" -->
+    <input type="image" name="submit" align="middle" src="../images/OKButton_Sleep.png" value="Send it"></th></tr> <!-- class="hyperlink" -->
       </form>
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
         async defer>
@@ -1056,7 +1056,7 @@ Subdick
 	<tr>
 	<td align="left" style="color:#CCC;">nukkuu/sleeps</td> 
     <td><img src="/tyhja.png" width="16" height="0"></td>
-    <td rowspan="2" style="vertical-align:bottom"><img  id="NappiSleepOk" src="images/OKButton_Sleep.png" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="timeset" value="ok"></td>
+    <td rowspan="2" style="vertical-align:bottom"><img  id="NappiSleepOk" src="../images/OKButton_Sleep.png" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="timeset" value="ok"></td>
     </tr>
 	<tr>
     <td>
@@ -1074,24 +1074,24 @@ Subdick
 <div id="soitin" onMouseOut="SoitinOutti(this)" onMouseOver="SoitinOveri(this)">
 <table id="TablePlay" border="0" cellpadding="0" cellspacing="0">
 		<tr>
-        <!-- <th style="vertical-align:middle"><img id="NappiMenu" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="menu" src="images/Buttons_06.png">
+        <!-- <th style="vertical-align:middle"><img id="NappiMenu" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="menu" src="../images/Buttons_06.png">
         </th>
         <th><img src="/tyhja.png" width="4"></th> style="opacity:[btocity]"     -->
-        <th style="vertical-align:middle"><img id="NappiFullS" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="fullscreen" src="images/Buttons_07.png"></th>
+        <th style="vertical-align:middle"><img id="NappiFullS" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="fullscreen" src="../images/Buttons_07.png"></th>
         <th><img src="/tyhja.png" width="6" height="0"></th>
-        <th style="vertical-align:middle"><img id="NappiSmaller" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="smaller" src="images/Buttons_08.png"></th>
+        <th style="vertical-align:middle"><img id="NappiSmaller" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="smaller" src="../images/Buttons_08.png"></th>
         <th><img src="/tyhja.png" width="5" height="0"></th>
-        <th style="vertical-align:middle"><img id="NappiBigger" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="bigger" src="images/Buttons_09.png"></th>
+        <th style="vertical-align:middle"><img id="NappiBigger" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="bigger" src="../images/Buttons_09.png"></th>
         <th><img src="/tyhja.png" width="15" height="0"></th>
-        <th style="vertical-align:middle"><img id="NappiBack" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="prewies" src="images/Buttons_11.png"></th>
+        <th style="vertical-align:middle"><img id="NappiBack" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="prewies" src="../images/Buttons_11.png"></th>
         <th><img src="/tyhja.png" width="4" height="0"></th>
-        <th style="vertical-align:middle"><img id="NappiForward" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="next" src="images/Buttons_12.png"></th>
+        <th style="vertical-align:middle"><img id="NappiForward" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="next" src="../images/Buttons_12.png"></th>
         <th><img src="/tyhja.png" width="3" height="0"></th>
-        <th><img id="NappiPlay" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="play" src="images/Buttons_03.png"></th>
+        <th><img id="NappiPlay" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="play" src="../images/Buttons_03.png"></th>
         <th><img src="/tyhja.png" width="10" height="0"></th>
-        <th valign="bottom"><img id="NappiRepeatAll" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="repeat all" src="images/ButtonRepeatAll.png"></th>
+        <th valign="bottom"><img id="NappiRepeatAll" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="repeat all" src="../images/ButtonRepeatAll.png"></th>
         <th><img src="/tyhja.png" width="3" height="0"></th>
-        <th valign="bottom"><img id="NappiSleepT" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="sleep timer" src="images/ButtonSleepT.png"></th>
+        <th valign="bottom"><img id="NappiSleepT" class="bto" onClick="MClick(this)" onMouseOut="sOutti(this)" onMouseOver="sOveri(this)" title="sleep timer" src="../images/ButtonSleepT.png"></th>
         </tr>
 </table>	
     </div>
@@ -1102,7 +1102,7 @@ Subdick
 
 	<div id="menu">
    
-        <img id="obaplogo" alt="obap info" src="images/obap-weblogo-eng.png"><br>
+        <img id="obaplogo" alt="obap info" src="../images/obap-weblogo-eng.png"><br>
         <img src="/tyhja.png" height="50" width="0">
         	<img id="tekeilla">
             <img src="/tyhja.png" height="0">
@@ -1114,7 +1114,7 @@ Subdick
             <table id="menuMarkiiiiiiiiii">
         	<tr>
             	<th><img src="/tyhja.png" width="5" height="0"></th>
-                <th><img id="NappiJo" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see jo" src="images/joButton.png" ></th>
+                <th><img id="NappiJo" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see jo" src="../images/joButton.png" ></th>
             </tr>
             <tr>
             	<td></td>
@@ -1125,7 +1125,7 @@ Subdick
             <table id="menuMarkiii">
         	<tr>
             	<th></th>
-                <th><img id="NappiKansi" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see kansi" src="images/kansiButton.png"></th>
+                <th><img id="NappiKansi" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see kansi" src="../images/kansiButton.png"></th>
             </tr>
             <tr>
             	<td></td>
@@ -1137,7 +1137,7 @@ Subdick
             <table id="menuMarkiiiiii">
         	<tr>
             	<th><div id="FrontBenchOverUU"></div></th>
-                <th><img id="NappiFrontBench" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see front bench" src="images/frontbenchButton.png"></th>
+                <th><img id="NappiFrontBench" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see front bench" src="../images/frontbenchButton.png"></th>
             </tr>
             <tr>
             	<td></td>
@@ -1149,7 +1149,7 @@ Subdick
             <table id="menuMarkiiii">
         	<tr>
             	<th><img src="/tyhja.png" width="5" height="0"></th>
-                <th><img id="NappiLava" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see lava" src="images/lavaButton.png" ></th>
+                <th><img id="NappiLava" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see lava" src="../images/lavaButton.png" ></th>
             </tr>
             <tr>
             	<td></td>
@@ -1161,7 +1161,7 @@ Subdick
             <table id="menuMarkiiiiii">
         	<tr>
             	<th><div id="NaapuriOverUU"></div></th>
-                <th><img id="NappiNaapuri" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see neigborhood sound" src="images/naapuriButton.png"></th>
+                <th><img id="NappiNaapuri" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see neigborhood sound" src="../images/naapuriButton.png"></th>
             </tr>
             <tr>
             	<td></td>
@@ -1174,7 +1174,7 @@ Subdick
             <table id="menuTwoC">
         	<tr>
             	<th><img src="/tyhja.png" width="0" height="0"></th>
-                <th><img id="NappiTwo" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see twoclainsg" src="images/twoclaingsButton.png"></th>
+                <th><img id="NappiTwo" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see twoclainsg" src="../images/twoclaingsButton.png"></th>
                 <th><div id="TwoOverUU"></div></th>
             </tr>
             <tr>
@@ -1187,7 +1187,7 @@ Subdick
             <table id="menuAita">
         	<tr>
             	<th><div id="AitaOverUU"></div></th>
-                <th><img id="NappiAita" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see aita" src="images/aitaButton.png" ></th>
+                <th><img id="NappiAita" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see aita" src="../images/aitaButton.png" ></th>
                 <th><div id="AitaOverU"></div></th>
             </tr>
             
@@ -1197,7 +1197,7 @@ Subdick
             <table id="menuNoba">
         	<tr>
             	<th><img src="/tyhja.png" width="4" height="0"></th>
-                <th><img id="NappiNoba" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see noba" src="images/nobaButton.png" width="74%" height="74%"></th>
+                <th><img id="NappiNoba" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see noba" src="../images/nobaButton.png" width="74%" height="74%"></th>
             </tr>
             <tr>
             	<td></td>
@@ -1209,7 +1209,7 @@ Subdick
         	<table id="menuAmbsu">
         	<tr>
             	<th><div id="AmbsuOverU"></div></th>
-                <th><img id="NappiAmbsu" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see ambsu" src="images/ambsuButton.png" width="88%" height="88%"></th>
+                <th><img id="NappiAmbsu" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="see ambsu" src="../images/ambsuButton.png" width="88%" height="88%"></th>
                 <th><div id="AmbsuOverUU"></div></th>
             </tr>	
             
@@ -1218,9 +1218,9 @@ Subdick
 <!-- ******************************************************************************* --> 
 <table style="margin-left:88;">
 		<tr>
-            <th><img align="middle" id="NappiBC" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="open BC game by obap" src="images/Button_Game.png" ></th>
+            <th><img align="middle" id="NappiBC" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="open BC game by obap" src="../images/Button_Game.png" ></th>
 			<th><img src="/tyhja.png" width="8" height="0px"></th>
-            <th><img align="middle" id="NappiSound" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="open sound links page" src="images/Button_SLinks.png" ></th>
+            <th><img align="middle" id="NappiSound" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="open sound links page" src="../images/Button_SLinks.png" ></th>
 			<th><img src="/tyhja.png" width="0"></th>
 			
   		</tr>
@@ -1237,7 +1237,7 @@ Subdick
             <table id="menuSoundL">
         	<tr>
             	<th><img src="/tyhja.png" width="0" height="8"></th>
-                <th><img id="NappiSound" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="open sound links page" src="images/soundlinksButton.png" ></th>
+                <th><img id="NappiSound" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="open sound links page" src="../images/soundlinksButton.png" ></th>
             </tr>
             <tr>
             	<td></td>
@@ -1256,15 +1256,15 @@ Subdick
 </div>
 <!-- ****************** ABOUT MENU ********************************'***************************** -->
 <div id="aboutObap">
-<img id="NappiMenu" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="main" src="images/Button_obap_home.png"></div>
+<img id="NappiMenu" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="main" src="../images/Button_obap_home.png"></div>
 <div id="about">
 <table>
 		<tr>
         <th><img src="/tyhja.png" width="85" height="0"></th>
         <th><img src="/tyhja.png" width="3" height="0"></th>
-        <th><img align="bottom" id="NappiMailOn" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="send mail" src="images/Button_Mail.png" ></th>
+        <th><img align="bottom" id="NappiMailOn" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="send mail" src="../images/Button_Mail.png" ></th>
 			<th></th>
-			<th><img align="middle" id="NappiInfoOn" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="info" src="images/Button_Info.png" ></th>
+			<th><img align="middle" id="NappiInfoOn" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="info" src="../images/Button_Info.png" ></th>
 					
   		</tr>
         <tr>
@@ -1277,7 +1277,7 @@ Subdick
 	</table>
     
    <div id="PlayAll" style="margin-left:-77;margin-top:-3;">
-<th><img id="NappiPlayA" class="btoP" align="middle" onClick="MClick(this)" onMouseOut="sOuttiRed(this)" onMouseOver="sOveriRed(this)" title="play" src="images/Button_IPlay_10.png" width="88%" height="88%"></div> 
+<th><img id="NappiPlayA" class="btoP" align="middle" onClick="MClick(this)" onMouseOut="sOuttiRed(this)" onMouseOver="sOveriRed(this)" title="play" src="../images/Button_IPlay_10.png" width="88%" height="88%"></div> 
 </div>
 <!-- ****************** ALATUNNISTEET ************************************************************* -->
  
@@ -1301,18 +1301,18 @@ Subdick
 <div id="flogos">
 
 <!--  <div id="shareBtne" class="btn btn-success clearfix">On construction</div> -->
-<img id="shareBtne" src="images/Facebook_Home_logo_old_small.png" alt="Share on Facebook" title="Share via Facebook" onMouseOut="Outti(this)" onMouseOver="Overi(this)">
+<img id="shareBtne" src="../images/Facebook_Home_logo_old_small.png" alt="Share on Facebook" title="Share via Facebook" onMouseOut="Outti(this)" onMouseOver="Overi(this)">
 </div>
 
 <div id="flogosBC">   
 
-<img id="BCamp" src="images/bandcamp.png" style="cursor: pointer;" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="Digital tracks available via Bandcamp"></div>
+<img id="BCamp" src="../images/bandcamp.png" style="cursor: pointer;" onClick="MClick(this)" onMouseOut="Outti(this)" onMouseOver="Overi(this)" title="Digital tracks available via Bandcamp"></div>
 
 <div id="donationFlogos">
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="2C9VGS3QPEH5U">
-<input type="image" src="images/DonateButtonBig.png" title="Donate online via safe PayPal service" border="0" name="submit">
+<input type="image" src="../images/DonateButtonBig.png" title="Donate online via safe PayPal service" border="0" name="submit">
  
 </form>
   
